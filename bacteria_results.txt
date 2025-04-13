@@ -1,0 +1,150 @@
+Bacteria-Related SRA Entries
+===========================
+
+Found 29 bacteria-related datasets
+
+1. SRR30879469
+   Organism: Escherichia coli
+   Study: Uropathogenic Escherichia coli (UPECs) producing extended-spectrum beta-lactamases (ESBLs)
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30879469
+
+2. SRR30806869
+   Organism: soil metagenome
+   Study: Competition and Facilitation between Moss and a Limestone_endemic Plant on Hainan Island
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30806869
+
+3. SRR30881569
+   Organism: Mycobacterium tuberculosis
+   Study: Whole genome sequencing of Mycobacterium sp as part of QMRL surveillance activities in Queensland, Australia Raw sequence reads
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30881569
+
+4. SRR30852969
+   Organism: Salmonella enterica
+   Study: PulseNet Salmonella enterica Genome sequencing
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30852969
+
+5. SRR30875469
+   Organism: urine metagenome
+   Study: human and rat kidney stone
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30875469
+
+6. SRR30884369
+   Organism: gut metagenome
+   Study: Iberian Hare gut microbiota amplicon metagenome in areas of different agricultural management regimes Raw sequence reads
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30884369
+
+7. SRR30812869
+   Organism: Salmonella enterica
+   Study: PulseNet Salmonella enterica Genome sequencing
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30812869
+
+8. SRR30883469
+   Organism: metagenome
+   Study: Agricultural soil survey
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30883469
+
+9. SRR30868369
+   Organism: Homo sapiens
+   Study: The non-antibacterial effects of azithromycin and other macrolides on the bronchial epithelial barrier and cellular differentiation
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30868369
+
+10. SRR30858869
+   Organism: bioreactor metagenome
+   Study: Methane production from LCFA: assessing the biostimulation potential of seven kinds of stimulants
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30858869
+
+11. SRR30869069
+   Organism: sediment metagenome
+   Study: Mangrove sediment metagenome from different tidal levels
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30869069
+
+12. SRR30847669
+   Organism: Salmonella enterica
+   Study: PulseNet Salmonella enterica Genome sequencing
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30847669
+
+13. SRR30806569
+   Organism: mouse gut metagenome
+   Study: Vaginal microbiota Raw sequence reads
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30806569
+
+14. SRR30865869
+   Organism: Escherichia coli O133:H29
+   Study: Escherichia coli SENASICA MX
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30865869
+
+15. SRR30805669
+   Organism: metagenome
+   Study: Antimicrobial resistance study and metagenomic analysis in bacterial pneumonia by NGS
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30805669
+
+16. SRR30885169
+   Organism: aquatic metagenome
+   Study: 16S amplicon sequencing data
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30885169
+
+17. SRR30876569
+   Organism: Streptococcus pyogenes
+   Study: Invasive group A streptococcus M1UK isolates collected in Canada from 2018-2023
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30876569
+
+18. SRR30826969
+   Organism: metagenome
+   Study: Upper respiratory tract microbiota across the human lifespan: a nationwide Dutch population study.
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30826969
+
+19. SRR30810869
+   Organism: Salmonella enterica
+   Study: PulseNet Salmonella enterica Genome sequencing
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30810869
+
+20. SRR30876469
+   Organism: wastewater metagenome
+   Study: South Florida - Rapid Acceleration of Diagnostics: Development and Proof-of-Concept Implementation of the South Florida Miami RADx-rad
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30876469
+
+21. SRR30825469
+   Organism: Neisseria gonorrhoeae
+   Study: GCWGS_SL Neisseria gonorrhoeae Genome Sequencing
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30825469
+
+22. SRR30881669
+   Organism: Mycobacterium tuberculosis
+   Study: Whole genome sequencing of Mycobacterium sp as part of QMRL surveillance activities in Queensland, Australia Raw sequence reads
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30881669
+
+23. SRR30842869
+   Organism: Salmonella enterica
+   Study: PulseNet Salmonella enterica Genome sequencing
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30842869
+
+24. SRR30890469
+   Organism: Streptococcus pyogenes
+   Study: Genome sequencing and assembly of special bacterial pathogens
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30890469
+
+25. SRR30872269
+   Organism: food metagenome
+   Study: Environmental microbiome mapping in poultry processing chain and assessment of microbial dynamics critical changes in response to different storage conditions
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30872269
+
+26. SRR30888169
+   Organism: Vibrio parahaemolyticus
+   Study: NZ Vibrio parahaemolyticus Genome sequencing and assembly
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30888169
+
+27. SRR30850069
+   Organism: Campylobacter jejuni
+   Study: Campylobacter Genome sequencing and assembly
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30850069
+
+28. SRR30875369
+   Organism: urine metagenome
+   Study: human and rat kidney stone
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30875369
+
+29. SRR30846169
+   Organism: canine gut metagenome
+   Study: Long-Term Evaluation of the Fecal Microbiota in Dogs with CE Treated with FMT
+   URL: https://www.ncbi.nlm.nih.gov/sra/SRR30846169
+
