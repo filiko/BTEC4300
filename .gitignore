@@ -52,3 +52,39 @@ megahit_out/intermediate_contigs/*
 
 
 #########################
+
+<<<<<<< HEAD
+
+
+
+
+
+=======
+>>>>>>> parent of 5231683 (Re-Upload 2)
+blast
+blast/results
+blast/results/nostoc_sp_c117_swissprot.blastp
+blast/db
+blast/db/swissprot.pot
+blast/db/swissprot.psq
+blast/db/taxonomy4blast.sqlite3
+blast/db/swissprot.pdb
+blast/db/swissprot.pos
+blast/db/taxdb.btd
+blast/db/swissprot.pjs
+blast/db/taxdb.bti
+blast/db/swissprot.ppd
+blast/db/swissprot.phr
+blast/db/swissprot.pin
+blast/db/swissprot.tar.gz
+blast/db/swissprot.ptf
+blast/db/swissprot.ppi
+blast/db/swissprot.pto
+blast/db/swissprot.pog
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> parent of 5231683 (Re-Upload 2)
+reference
+reference/nostoc_sp_c117_reference.fasta
