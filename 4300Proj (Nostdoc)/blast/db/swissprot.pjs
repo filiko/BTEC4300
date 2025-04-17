@@ -1,0 +1,27 @@
+{
+  "version": "1.2",
+  "dbname": "swissprot",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Non-redundant UniProtKB/SwissProt sequences",
+  "number-of-letters": 184434521,
+  "number-of-sequences": 484469,
+  "last-updated": "2025-04-13T04:30:00",
+  "number-of-volumes": 1,
+  "number-of-taxids": 14738,
+  "bytes-total": 362921546,
+  "bytes-to-cache": 188794871,
+  "files": [
+    "swissprot.pdb",
+    "swissprot.phr",
+    "swissprot.pin",
+    "swissprot.pog",
+    "swissprot.pos",
+    "swissprot.pot",
+    "swissprot.ppd",
+    "swissprot.ppi",
+    "swissprot.psq",
+    "swissprot.ptf",
+    "swissprot.pto"
+  ]
+}
