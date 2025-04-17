@@ -1,0 +1,6 @@
+- "left reads":
+  - "/root/4300Proj/SRR32280526_1_trimmed_paired.fastq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/root/4300Proj/SRR32280526_2_trimmed_paired.fastq.gz"
+  "type": "paired-end"

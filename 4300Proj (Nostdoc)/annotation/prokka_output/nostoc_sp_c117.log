@@ -1,0 +1,1217 @@
+[12:15:15] This is prokka 1.14.6
+[12:15:15] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[12:15:15] Homepage is https://github.com/tseemann/prokka
+[12:15:15] Local time is Wed Apr 16 12:15:15 2025
+[12:15:15] You are root
+[12:15:15] Operating system is linux
+[12:15:15] You have BioPerl 1.7.8
+[12:15:15] System has 8 cores.
+[12:15:15] Will use maximum of 4 cores.
+[12:15:15] Annotating as >>> Bacteria <<<
+[12:15:15] Generating locus_tag from 'assembly/spades_output/scaffolds.fasta' contents.
+[12:15:15] Setting --locustag HPFNLEKH from MD5 19f75e41bffb0928edcdbb58f8edbcb9
+[12:15:15] Enabling options to ensure Genbank/ENA/DDJB submission compliance.
+[12:15:15] Re-using existing --outdir annotation/prokka_output
+[12:15:15] Using filename prefix: nostoc_sp_c117.XXX
+[12:15:15] Setting HMMER_NCPU=1
+[12:15:15] Writing log to: annotation/prokka_output/nostoc_sp_c117.log
+[12:15:15] Command: /root/miniconda3/envs/prokka_env/bin/prokka --outdir annotation/prokka_output --prefix nostoc_sp_c117 --genus Nostoc --species sp. C117 --strain C117 --kingdom Bacteria --cpus 4 --centre X --compliant --force assembly/spades_output/scaffolds.fasta
+[12:15:15] Appending to PATH: /root/miniconda3/envs/prokka_env/bin
+[12:15:15] Looking for 'aragorn' - found /root/miniconda3/envs/prokka_env/bin/aragorn
+[12:15:15] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[12:15:15] Looking for 'barrnap' - found /root/miniconda3/envs/prokka_env/bin/barrnap
+[12:15:15] Determined barrnap version is 000009 from 'barrnap 0.9'
+[12:15:15] Looking for 'blastp' - found /root/miniconda3/envs/prokka_env/bin/blastp
+[12:15:16] Determined blastp version is 002016 from 'blastp: 2.16.0+'
+[12:15:16] Looking for 'cmpress' - found /root/miniconda3/envs/prokka_env/bin/cmpress
+[12:15:16] Determined cmpress version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[12:15:16] Looking for 'cmscan' - found /root/miniconda3/envs/prokka_env/bin/cmscan
+[12:15:16] Determined cmscan version is 001001 from '# INFERNAL 1.1.5 (Sep 2023)'
+[12:15:16] Looking for 'egrep' - found /usr/bin/egrep
+[12:15:16] Looking for 'find' - found /usr/bin/find
+[12:15:16] Looking for 'grep' - found /usr/bin/grep
+[12:15:16] Looking for 'hmmpress' - found /root/miniconda3/envs/prokka_env/bin/hmmpress
+[12:15:16] Determined hmmpress version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[12:15:16] Looking for 'hmmscan' - found /root/miniconda3/envs/prokka_env/bin/hmmscan
+[12:15:16] Determined hmmscan version is 003004 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[12:15:16] Looking for 'java' - found /root/miniconda3/envs/prokka_env/bin/java
+[12:15:16] Looking for 'makeblastdb' - found /root/miniconda3/envs/prokka_env/bin/makeblastdb
+[12:15:16] Determined makeblastdb version is 002016 from 'makeblastdb: 2.16.0+'
+[12:15:16] Looking for 'minced' - found /root/miniconda3/envs/prokka_env/bin/minced
+[12:15:16] Determined minced version is 004002 from 'minced 0.4.2'
+[12:15:16] Looking for 'parallel' - found /root/miniconda3/envs/prokka_env/bin/parallel
+[12:15:17] Determined parallel version is 20250222 from 'GNU parallel 20250222'
+[12:15:17] Looking for 'prodigal' - found /root/miniconda3/envs/prokka_env/bin/prodigal
+[12:15:17] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[12:15:17] Looking for 'prokka-genbank_to_fasta_db' - found /root/miniconda3/envs/prokka_env/bin/prokka-genbank_to_fasta_db
+[12:15:17] Looking for 'sed' - found /usr/bin/sed
+[12:15:17] Looking for 'tbl2asn' - found /root/miniconda3/envs/prokka_env/bin/tbl2asn
+[12:15:17] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[12:15:17] Using genetic code table 11.
+[12:15:17] Loading and checking input file: assembly/spades_output/scaffolds.fasta
+[12:15:18] Skipping short (<200 bp) contig: NODE_4406_length_199_cov_173.326389
+[12:15:18] Skipping short (<200 bp) contig: NODE_4407_length_199_cov_3.145833
+[12:15:18] Skipping short (<200 bp) contig: NODE_4408_length_195_cov_37.428571
+[12:15:18] Skipping short (<200 bp) contig: NODE_4409_length_194_cov_15.294964
+[12:15:18] Skipping short (<200 bp) contig: NODE_4410_length_187_cov_1.227273
+[12:15:18] Skipping short (<200 bp) contig: NODE_4411_length_181_cov_7.174603
+[12:15:18] Skipping short (<200 bp) contig: NODE_4412_length_181_cov_1.087302
+[12:15:18] Skipping short (<200 bp) contig: NODE_4413_length_179_cov_0.701613
+[12:15:18] Skipping short (<200 bp) contig: NODE_4414_length_176_cov_16.074380
+[12:15:18] Skipping short (<200 bp) contig: NODE_4415_length_175_cov_1047.734783
+[12:15:18] Skipping short (<200 bp) contig: NODE_4416_length_175_cov_29.633333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4417_length_174_cov_6.563025
+[12:15:18] Skipping short (<200 bp) contig: NODE_4418_length_165_cov_2.463636
+[12:15:18] Skipping short (<200 bp) contig: NODE_4419_length_165_cov_0.818182
+[12:15:18] Skipping short (<200 bp) contig: NODE_4420_length_163_cov_3.953704
+[12:15:18] Skipping short (<200 bp) contig: NODE_4421_length_160_cov_1.219048
+[12:15:18] Skipping short (<200 bp) contig: NODE_4422_length_153_cov_0.928571
+[12:15:18] Skipping short (<200 bp) contig: NODE_4423_length_151_cov_3.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4424_length_151_cov_3.260417
+[12:15:18] Skipping short (<200 bp) contig: NODE_4425_length_149_cov_2.489362
+[12:15:18] Skipping short (<200 bp) contig: NODE_4426_length_147_cov_228.565217
+[12:15:18] Skipping short (<200 bp) contig: NODE_4427_length_143_cov_10.034091
+[12:15:18] Skipping short (<200 bp) contig: NODE_4428_length_143_cov_1.659091
+[12:15:18] Skipping short (<200 bp) contig: NODE_4429_length_142_cov_2883.578680
+[12:15:18] Skipping short (<200 bp) contig: NODE_4430_length_142_cov_4.218391
+[12:15:18] Skipping short (<200 bp) contig: NODE_4431_length_141_cov_38529.918605
+[12:15:18] Skipping short (<200 bp) contig: NODE_4432_length_141_cov_56.418605
+[12:15:18] Skipping short (<200 bp) contig: NODE_4433_length_139_cov_1.392857
+[12:15:18] Skipping short (<200 bp) contig: NODE_4434_length_136_cov_182.271605
+[12:15:18] Skipping short (<200 bp) contig: NODE_4435_length_135_cov_52.412500
+[12:15:18] Skipping short (<200 bp) contig: NODE_4436_length_133_cov_4.692308
+[12:15:18] Skipping short (<200 bp) contig: NODE_4437_length_130_cov_125.880000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4438_length_127_cov_4.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4439_length_124_cov_53.884058
+[12:15:18] Skipping short (<200 bp) contig: NODE_4440_length_124_cov_17.695652
+[12:15:18] Skipping short (<200 bp) contig: NODE_4441_length_124_cov_5.942029
+[12:15:18] Skipping short (<200 bp) contig: NODE_4442_length_121_cov_6.893939
+[12:15:18] Skipping short (<200 bp) contig: NODE_4443_length_119_cov_1.109375
+[12:15:18] Skipping short (<200 bp) contig: NODE_4444_length_115_cov_2.100000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4445_length_113_cov_101.655172
+[12:15:18] Skipping short (<200 bp) contig: NODE_4446_length_113_cov_1.551724
+[12:15:18] Skipping short (<200 bp) contig: NODE_4447_length_112_cov_53.543860
+[12:15:18] Skipping short (<200 bp) contig: NODE_4448_length_111_cov_424.785714
+[12:15:18] Skipping short (<200 bp) contig: NODE_4449_length_111_cov_206.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4450_length_111_cov_174.821429
+[12:15:18] Skipping short (<200 bp) contig: NODE_4451_length_111_cov_105.053571
+[12:15:18] Skipping short (<200 bp) contig: NODE_4452_length_111_cov_95.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4453_length_111_cov_85.357143
+[12:15:18] Skipping short (<200 bp) contig: NODE_4454_length_111_cov_22.803571
+[12:15:18] Skipping short (<200 bp) contig: NODE_4455_length_111_cov_22.089286
+[12:15:18] Skipping short (<200 bp) contig: NODE_4456_length_110_cov_81.127273
+[12:15:18] Skipping short (<200 bp) contig: NODE_4457_length_110_cov_53.636364
+[12:15:18] Skipping short (<200 bp) contig: NODE_4458_length_110_cov_46.745455
+[12:15:18] Skipping short (<200 bp) contig: NODE_4459_length_110_cov_42.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4460_length_110_cov_40.654545
+[12:15:18] Skipping short (<200 bp) contig: NODE_4461_length_110_cov_28.127273
+[12:15:18] Skipping short (<200 bp) contig: NODE_4462_length_110_cov_25.381818
+[12:15:18] Skipping short (<200 bp) contig: NODE_4463_length_110_cov_23.563636
+[12:15:18] Skipping short (<200 bp) contig: NODE_4464_length_110_cov_22.200000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4465_length_110_cov_21.909091
+[12:15:18] Skipping short (<200 bp) contig: NODE_4466_length_110_cov_19.745455
+[12:15:18] Skipping short (<200 bp) contig: NODE_4467_length_110_cov_18.090909
+[12:15:18] Skipping short (<200 bp) contig: NODE_4468_length_110_cov_16.236364
+[12:15:18] Skipping short (<200 bp) contig: NODE_4469_length_110_cov_16.109091
+[12:15:18] Skipping short (<200 bp) contig: NODE_4470_length_110_cov_15.818182
+[12:15:18] Skipping short (<200 bp) contig: NODE_4471_length_110_cov_14.163636
+[12:15:18] Skipping short (<200 bp) contig: NODE_4472_length_110_cov_10.618182
+[12:15:18] Skipping short (<200 bp) contig: NODE_4473_length_109_cov_588.277778
+[12:15:18] Skipping short (<200 bp) contig: NODE_4474_length_109_cov_282.592593
+[12:15:18] Skipping short (<200 bp) contig: NODE_4475_length_109_cov_238.259259
+[12:15:18] Skipping short (<200 bp) contig: NODE_4476_length_109_cov_141.111111
+[12:15:18] Skipping short (<200 bp) contig: NODE_4477_length_109_cov_50.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4478_length_109_cov_39.240741
+[12:15:18] Skipping short (<200 bp) contig: NODE_4479_length_109_cov_38.574074
+[12:15:18] Skipping short (<200 bp) contig: NODE_4480_length_109_cov_32.685185
+[12:15:18] Skipping short (<200 bp) contig: NODE_4481_length_109_cov_30.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4482_length_109_cov_23.592593
+[12:15:18] Skipping short (<200 bp) contig: NODE_4483_length_109_cov_15.148148
+[12:15:18] Skipping short (<200 bp) contig: NODE_4484_length_109_cov_14.648148
+[12:15:18] Skipping short (<200 bp) contig: NODE_4485_length_109_cov_13.074074
+[12:15:18] Skipping short (<200 bp) contig: NODE_4486_length_109_cov_11.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4487_length_108_cov_411.169811
+[12:15:18] Skipping short (<200 bp) contig: NODE_4488_length_108_cov_364.905660
+[12:15:18] Skipping short (<200 bp) contig: NODE_4489_length_108_cov_116.320755
+[12:15:18] Skipping short (<200 bp) contig: NODE_4490_length_108_cov_66.471698
+[12:15:18] Skipping short (<200 bp) contig: NODE_4491_length_108_cov_27.471698
+[12:15:18] Skipping short (<200 bp) contig: NODE_4492_length_109_cov_26.056604
+[12:15:18] Skipping short (<200 bp) contig: NODE_4493_length_108_cov_17.358491
+[12:15:18] Skipping short (<200 bp) contig: NODE_4494_length_108_cov_15.207547
+[12:15:18] Skipping short (<200 bp) contig: NODE_4495_length_108_cov_12.641509
+[12:15:18] Skipping short (<200 bp) contig: NODE_4496_length_108_cov_11.264151
+[12:15:18] Skipping short (<200 bp) contig: NODE_4497_length_107_cov_90.384615
+[12:15:18] Skipping short (<200 bp) contig: NODE_4498_length_108_cov_60.403846
+[12:15:18] Skipping short (<200 bp) contig: NODE_4499_length_107_cov_53.442308
+[12:15:18] Skipping short (<200 bp) contig: NODE_4500_length_107_cov_48.576923
+[12:15:18] Skipping short (<200 bp) contig: NODE_4501_length_107_cov_34.423077
+[12:15:18] Skipping short (<200 bp) contig: NODE_4502_length_107_cov_32.269231
+[12:15:18] Skipping short (<200 bp) contig: NODE_4503_length_107_cov_15.019231
+[12:15:18] Skipping short (<200 bp) contig: NODE_4504_length_107_cov_10.538462
+[12:15:18] Skipping short (<200 bp) contig: NODE_4505_length_106_cov_494.607843
+[12:15:18] Skipping short (<200 bp) contig: NODE_4506_length_105_cov_169.431373
+[12:15:18] Skipping short (<200 bp) contig: NODE_4507_length_106_cov_117.588235
+[12:15:18] Skipping short (<200 bp) contig: NODE_4508_length_106_cov_86.921569
+[12:15:18] Skipping short (<200 bp) contig: NODE_4509_length_107_cov_76.568627
+[12:15:18] Skipping short (<200 bp) contig: NODE_4510_length_106_cov_47.784314
+[12:15:18] Skipping short (<200 bp) contig: NODE_4511_length_106_cov_38.921569
+[12:15:18] Skipping short (<200 bp) contig: NODE_4512_length_106_cov_19.411765
+[12:15:18] Skipping short (<200 bp) contig: NODE_4513_length_106_cov_15.725490
+[12:15:18] Skipping short (<200 bp) contig: NODE_4514_length_106_cov_15.215686
+[12:15:18] Skipping short (<200 bp) contig: NODE_4515_length_106_cov_12.196078
+[12:15:18] Skipping short (<200 bp) contig: NODE_4516_length_106_cov_10.568627
+[12:15:18] Skipping short (<200 bp) contig: NODE_4517_length_106_cov_10.313725
+[12:15:18] Skipping short (<200 bp) contig: NODE_4518_length_105_cov_107.140000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4519_length_105_cov_102.700000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4520_length_102_cov_68.620000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4521_length_106_cov_50.220000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4522_length_105_cov_48.120000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4523_length_105_cov_45.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4524_length_105_cov_33.660000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4525_length_105_cov_28.980000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4526_length_105_cov_26.140000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4527_length_107_cov_170.020408
+[12:15:18] Skipping short (<200 bp) contig: NODE_4528_length_104_cov_12.428571
+[12:15:18] Skipping short (<200 bp) contig: NODE_4529_length_103_cov_16.395833
+[12:15:18] Skipping short (<200 bp) contig: NODE_4530_length_103_cov_12.958333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4531_length_103_cov_11.625000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4532_length_102_cov_192.212766
+[12:15:18] Skipping short (<200 bp) contig: NODE_4533_length_101_cov_286.934783
+[12:15:18] Skipping short (<200 bp) contig: NODE_4534_length_101_cov_177.304348
+[12:15:18] Skipping short (<200 bp) contig: NODE_4535_length_101_cov_157.804348
+[12:15:18] Skipping short (<200 bp) contig: NODE_4536_length_101_cov_10.326087
+[12:15:18] Skipping short (<200 bp) contig: NODE_4537_length_100_cov_176.400000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4538_length_99_cov_235.159091
+[12:15:18] Skipping short (<200 bp) contig: NODE_4539_length_99_cov_137.727273
+[12:15:18] Skipping short (<200 bp) contig: NODE_4540_length_99_cov_30.272727
+[12:15:18] Skipping short (<200 bp) contig: NODE_4541_length_99_cov_29.545455
+[12:15:18] Skipping short (<200 bp) contig: NODE_4542_length_99_cov_25.727273
+[12:15:18] Skipping short (<200 bp) contig: NODE_4543_length_99_cov_15.568182
+[12:15:18] Skipping short (<200 bp) contig: NODE_4544_length_99_cov_12.090909
+[12:15:18] Skipping short (<200 bp) contig: NODE_4545_length_99_cov_10.727273
+[12:15:18] Skipping short (<200 bp) contig: NODE_4546_length_99_cov_1.704545
+[12:15:18] Skipping short (<200 bp) contig: NODE_4547_length_98_cov_747.395349
+[12:15:18] Skipping short (<200 bp) contig: NODE_4548_length_98_cov_273.953488
+[12:15:18] Skipping short (<200 bp) contig: NODE_4549_length_98_cov_117.418605
+[12:15:18] Skipping short (<200 bp) contig: NODE_4550_length_97_cov_581.261905
+[12:15:18] Skipping short (<200 bp) contig: NODE_4551_length_97_cov_500.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4552_length_97_cov_213.142857
+[12:15:18] Skipping short (<200 bp) contig: NODE_4553_length_97_cov_124.166667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4554_length_97_cov_114.452381
+[12:15:18] Skipping short (<200 bp) contig: NODE_4555_length_97_cov_11.119048
+[12:15:18] Skipping short (<200 bp) contig: NODE_4556_length_97_cov_4.571429
+[12:15:18] Skipping short (<200 bp) contig: NODE_4557_length_97_cov_1.738095
+[12:15:18] Skipping short (<200 bp) contig: NODE_4558_length_96_cov_31.243902
+[12:15:18] Skipping short (<200 bp) contig: NODE_4559_length_96_cov_14.268293
+[12:15:18] Skipping short (<200 bp) contig: NODE_4560_length_96_cov_13.219512
+[12:15:18] Skipping short (<200 bp) contig: NODE_4561_length_96_cov_10.487805
+[12:15:18] Skipping short (<200 bp) contig: NODE_4562_length_96_cov_10.463415
+[12:15:18] Skipping short (<200 bp) contig: NODE_4563_length_96_cov_1.365854
+[12:15:18] Skipping short (<200 bp) contig: NODE_4564_length_95_cov_330.250000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4565_length_95_cov_230.125000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4566_length_95_cov_155.075000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4567_length_95_cov_148.175000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4568_length_95_cov_16.600000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4569_length_95_cov_12.775000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4570_length_95_cov_12.125000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4571_length_95_cov_11.025000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4572_length_94_cov_1146.641026
+[12:15:18] Skipping short (<200 bp) contig: NODE_4573_length_94_cov_753.974359
+[12:15:18] Skipping short (<200 bp) contig: NODE_4574_length_94_cov_442.282051
+[12:15:18] Skipping short (<200 bp) contig: NODE_4575_length_94_cov_223.948718
+[12:15:18] Skipping short (<200 bp) contig: NODE_4576_length_94_cov_196.820513
+[12:15:18] Skipping short (<200 bp) contig: NODE_4577_length_94_cov_170.025641
+[12:15:18] Skipping short (<200 bp) contig: NODE_4578_length_94_cov_161.846154
+[12:15:18] Skipping short (<200 bp) contig: NODE_4579_length_94_cov_137.051282
+[12:15:18] Skipping short (<200 bp) contig: NODE_4580_length_94_cov_24.230769
+[12:15:18] Skipping short (<200 bp) contig: NODE_4581_length_94_cov_10.461538
+[12:15:18] Skipping short (<200 bp) contig: NODE_4582_length_93_cov_138.842105
+[12:15:18] Skipping short (<200 bp) contig: NODE_4583_length_93_cov_110.710526
+[12:15:18] Skipping short (<200 bp) contig: NODE_4584_length_93_cov_13.052632
+[12:15:18] Skipping short (<200 bp) contig: NODE_4585_length_92_cov_125.729730
+[12:15:18] Skipping short (<200 bp) contig: NODE_4586_length_92_cov_21.945946
+[12:15:18] Skipping short (<200 bp) contig: NODE_4587_length_92_cov_13.081081
+[12:15:18] Skipping short (<200 bp) contig: NODE_4588_length_91_cov_1996.583333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4589_length_91_cov_79.888889
+[12:15:18] Skipping short (<200 bp) contig: NODE_4590_length_90_cov_458.742857
+[12:15:18] Skipping short (<200 bp) contig: NODE_4591_length_90_cov_446.971429
+[12:15:18] Skipping short (<200 bp) contig: NODE_4592_length_90_cov_262.057143
+[12:15:18] Skipping short (<200 bp) contig: NODE_4593_length_90_cov_12.142857
+[12:15:18] Skipping short (<200 bp) contig: NODE_4594_length_90_cov_10.742857
+[12:15:18] Skipping short (<200 bp) contig: NODE_4595_length_89_cov_129.294118
+[12:15:18] Skipping short (<200 bp) contig: NODE_4596_length_89_cov_118.558824
+[12:15:18] Skipping short (<200 bp) contig: NODE_4597_length_89_cov_48.352941
+[12:15:18] Skipping short (<200 bp) contig: NODE_4598_length_89_cov_10.823529
+[12:15:18] Skipping short (<200 bp) contig: NODE_4599_length_88_cov_71.181818
+[12:15:18] Skipping short (<200 bp) contig: NODE_4600_length_88_cov_11.575758
+[12:15:18] Skipping short (<200 bp) contig: NODE_4601_length_88_cov_2.727273
+[12:15:18] Skipping short (<200 bp) contig: NODE_4602_length_87_cov_274.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4603_length_87_cov_171.968750
+[12:15:18] Skipping short (<200 bp) contig: NODE_4604_length_87_cov_15.156250
+[12:15:18] Skipping short (<200 bp) contig: NODE_4605_length_87_cov_11.968750
+[12:15:18] Skipping short (<200 bp) contig: NODE_4606_length_86_cov_405.935484
+[12:15:18] Skipping short (<200 bp) contig: NODE_4607_length_86_cov_353.193548
+[12:15:18] Skipping short (<200 bp) contig: NODE_4608_length_86_cov_245.096774
+[12:15:18] Skipping short (<200 bp) contig: NODE_4609_length_86_cov_189.193548
+[12:15:18] Skipping short (<200 bp) contig: NODE_4610_length_86_cov_158.967742
+[12:15:18] Skipping short (<200 bp) contig: NODE_4611_length_85_cov_281.100000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4612_length_85_cov_12.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4613_length_84_cov_519.068966
+[12:15:18] Skipping short (<200 bp) contig: NODE_4614_length_84_cov_466.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4615_length_84_cov_383.758621
+[12:15:18] Skipping short (<200 bp) contig: NODE_4616_length_84_cov_241.241379
+[12:15:18] Skipping short (<200 bp) contig: NODE_4617_length_84_cov_193.103448
+[12:15:18] Skipping short (<200 bp) contig: NODE_4618_length_84_cov_130.206897
+[12:15:18] Skipping short (<200 bp) contig: NODE_4619_length_84_cov_57.827586
+[12:15:18] Skipping short (<200 bp) contig: NODE_4620_length_84_cov_35.689655
+[12:15:18] Skipping short (<200 bp) contig: NODE_4621_length_84_cov_19.758621
+[12:15:18] Skipping short (<200 bp) contig: NODE_4622_length_84_cov_17.448276
+[12:15:18] Skipping short (<200 bp) contig: NODE_4623_length_84_cov_12.896552
+[12:15:18] Skipping short (<200 bp) contig: NODE_4624_length_84_cov_11.862069
+[12:15:18] Skipping short (<200 bp) contig: NODE_4625_length_82_cov_378.074074
+[12:15:18] Skipping short (<200 bp) contig: NODE_4626_length_82_cov_316.962963
+[12:15:18] Skipping short (<200 bp) contig: NODE_4627_length_82_cov_92.296296
+[12:15:18] Skipping short (<200 bp) contig: NODE_4628_length_82_cov_19.814815
+[12:15:18] Skipping short (<200 bp) contig: NODE_4629_length_81_cov_310.461538
+[12:15:18] Skipping short (<200 bp) contig: NODE_4630_length_81_cov_111.115385
+[12:15:18] Skipping short (<200 bp) contig: NODE_4631_length_80_cov_232.360000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4632_length_80_cov_227.280000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4633_length_80_cov_221.240000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4634_length_80_cov_19.520000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4635_length_80_cov_18.560000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4636_length_80_cov_17.320000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4637_length_80_cov_12.880000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4638_length_80_cov_12.160000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4639_length_80_cov_10.200000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4640_length_80_cov_9.840000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4641_length_79_cov_79.625000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4642_length_79_cov_20.166667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4643_length_79_cov_4.166667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4644_length_79_cov_1.125000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4645_length_78_cov_494.826087
+[12:15:18] Skipping short (<200 bp) contig: NODE_4646_length_78_cov_411.260870
+[12:15:18] Skipping short (<200 bp) contig: NODE_4647_length_78_cov_106.739130
+[12:15:18] Skipping short (<200 bp) contig: NODE_4648_length_78_cov_37.739130
+[12:15:18] Skipping short (<200 bp) contig: NODE_4649_length_78_cov_24.869565
+[12:15:18] Skipping short (<200 bp) contig: NODE_4650_length_78_cov_22.304348
+[12:15:18] Skipping short (<200 bp) contig: NODE_4651_length_78_cov_14.521739
+[12:15:18] Skipping short (<200 bp) contig: NODE_4652_length_78_cov_12.956522
+[12:15:18] Skipping short (<200 bp) contig: NODE_4653_length_78_cov_12.695652
+[12:15:18] Skipping short (<200 bp) contig: NODE_4654_length_78_cov_11.260870
+[12:15:18] Skipping short (<200 bp) contig: NODE_4655_length_78_cov_10.478261
+[12:15:18] Skipping short (<200 bp) contig: NODE_4656_length_77_cov_532.181818
+[12:15:18] Skipping short (<200 bp) contig: NODE_4657_length_77_cov_490.181818
+[12:15:18] Skipping short (<200 bp) contig: NODE_4658_length_77_cov_430.227273
+[12:15:18] Skipping short (<200 bp) contig: NODE_4659_length_77_cov_228.454545
+[12:15:18] Skipping short (<200 bp) contig: NODE_4660_length_77_cov_88.409091
+[12:15:18] Skipping short (<200 bp) contig: NODE_4661_length_77_cov_26.454545
+[12:15:18] Skipping short (<200 bp) contig: NODE_4662_length_77_cov_12.590909
+[12:15:18] Skipping short (<200 bp) contig: NODE_4663_length_77_cov_11.045455
+[12:15:18] Skipping short (<200 bp) contig: NODE_4664_length_76_cov_315.952381
+[12:15:18] Skipping short (<200 bp) contig: NODE_4665_length_76_cov_180.904762
+[12:15:18] Skipping short (<200 bp) contig: NODE_4666_length_76_cov_61.904762
+[12:15:18] Skipping short (<200 bp) contig: NODE_4667_length_76_cov_13.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4668_length_76_cov_5.047619
+[12:15:18] Skipping short (<200 bp) contig: NODE_4669_length_75_cov_1354.100000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4670_length_75_cov_706.950000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4671_length_74_cov_1376.842105
+[12:15:18] Skipping short (<200 bp) contig: NODE_4672_length_74_cov_1345.052632
+[12:15:18] Skipping short (<200 bp) contig: NODE_4673_length_74_cov_223.684211
+[12:15:18] Skipping short (<200 bp) contig: NODE_4674_length_74_cov_216.473684
+[12:15:18] Skipping short (<200 bp) contig: NODE_4675_length_74_cov_85.842105
+[12:15:18] Skipping short (<200 bp) contig: NODE_4676_length_74_cov_54.052632
+[12:15:18] Skipping short (<200 bp) contig: NODE_4677_length_73_cov_485.222222
+[12:15:18] Skipping short (<200 bp) contig: NODE_4678_length_73_cov_437.777778
+[12:15:18] Skipping short (<200 bp) contig: NODE_4679_length_73_cov_309.388889
+[12:15:18] Skipping short (<200 bp) contig: NODE_4680_length_73_cov_168.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4681_length_73_cov_117.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4682_length_73_cov_3.888889
+[12:15:18] Skipping short (<200 bp) contig: NODE_4683_length_72_cov_473.941176
+[12:15:18] Skipping short (<200 bp) contig: NODE_4684_length_72_cov_443.823529
+[12:15:18] Skipping short (<200 bp) contig: NODE_4685_length_72_cov_439.647059
+[12:15:18] Skipping short (<200 bp) contig: NODE_4686_length_72_cov_416.823529
+[12:15:18] Skipping short (<200 bp) contig: NODE_4687_length_72_cov_293.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4688_length_72_cov_31.764706
+[12:15:18] Skipping short (<200 bp) contig: NODE_4689_length_72_cov_28.352941
+[12:15:18] Skipping short (<200 bp) contig: NODE_4690_length_72_cov_21.823529
+[12:15:18] Skipping short (<200 bp) contig: NODE_4691_length_72_cov_17.352941
+[12:15:18] Skipping short (<200 bp) contig: NODE_4692_length_72_cov_13.117647
+[12:15:18] Skipping short (<200 bp) contig: NODE_4693_length_72_cov_12.882353
+[12:15:18] Skipping short (<200 bp) contig: NODE_4694_length_72_cov_12.882353
+[12:15:18] Skipping short (<200 bp) contig: NODE_4695_length_72_cov_11.352941
+[12:15:18] Skipping short (<200 bp) contig: NODE_4696_length_72_cov_11.235294
+[12:15:18] Skipping short (<200 bp) contig: NODE_4697_length_72_cov_11.176471
+[12:15:18] Skipping short (<200 bp) contig: NODE_4698_length_72_cov_10.470588
+[12:15:18] Skipping short (<200 bp) contig: NODE_4699_length_71_cov_916.625000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4700_length_71_cov_347.625000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4701_length_71_cov_218.875000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4702_length_71_cov_150.937500
+[12:15:18] Skipping short (<200 bp) contig: NODE_4703_length_71_cov_140.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4704_length_71_cov_136.437500
+[12:15:18] Skipping short (<200 bp) contig: NODE_4705_length_71_cov_78.125000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4706_length_71_cov_13.625000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4707_length_71_cov_12.937500
+[12:15:18] Skipping short (<200 bp) contig: NODE_4708_length_71_cov_10.562500
+[12:15:18] Skipping short (<200 bp) contig: NODE_4709_length_70_cov_601.466667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4710_length_70_cov_589.933333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4711_length_70_cov_392.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4712_length_70_cov_338.866667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4713_length_70_cov_322.800000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4714_length_70_cov_290.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4715_length_70_cov_159.800000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4716_length_70_cov_54.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4717_length_69_cov_258819.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4718_length_69_cov_747.785714
+[12:15:18] Skipping short (<200 bp) contig: NODE_4719_length_69_cov_343.571429
+[12:15:18] Skipping short (<200 bp) contig: NODE_4720_length_69_cov_186.142857
+[12:15:18] Skipping short (<200 bp) contig: NODE_4721_length_69_cov_100.214286
+[12:15:18] Skipping short (<200 bp) contig: NODE_4722_length_69_cov_73.857143
+[12:15:18] Skipping short (<200 bp) contig: NODE_4723_length_69_cov_41.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4724_length_69_cov_16.928571
+[12:15:18] Skipping short (<200 bp) contig: NODE_4725_length_69_cov_11.142857
+[12:15:18] Skipping short (<200 bp) contig: NODE_4726_length_69_cov_10.428571
+[12:15:18] Skipping short (<200 bp) contig: NODE_4727_length_68_cov_1337.230769
+[12:15:18] Skipping short (<200 bp) contig: NODE_4728_length_68_cov_837.153846
+[12:15:18] Skipping short (<200 bp) contig: NODE_4729_length_68_cov_481.076923
+[12:15:18] Skipping short (<200 bp) contig: NODE_4730_length_68_cov_221.461538
+[12:15:18] Skipping short (<200 bp) contig: NODE_4731_length_68_cov_23.230769
+[12:15:18] Skipping short (<200 bp) contig: NODE_4732_length_68_cov_14.384615
+[12:15:18] Skipping short (<200 bp) contig: NODE_4733_length_68_cov_13.769231
+[12:15:18] Skipping short (<200 bp) contig: NODE_4734_length_68_cov_8.538462
+[12:15:18] Skipping short (<200 bp) contig: NODE_4735_length_68_cov_3.846154
+[12:15:18] Skipping short (<200 bp) contig: NODE_4736_length_67_cov_880.583333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4737_length_67_cov_715.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4738_length_67_cov_707.416667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4739_length_67_cov_628.166667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4740_length_67_cov_600.166667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4741_length_67_cov_460.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4742_length_67_cov_447.916667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4743_length_67_cov_418.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4744_length_67_cov_378.166667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4745_length_67_cov_365.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4746_length_67_cov_326.416667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4747_length_67_cov_122.166667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4748_length_67_cov_32.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4749_length_67_cov_16.083333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4750_length_67_cov_14.416667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4751_length_67_cov_14.083333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4752_length_66_cov_532.727273
+[12:15:18] Skipping short (<200 bp) contig: NODE_4753_length_66_cov_434.454545
+[12:15:18] Skipping short (<200 bp) contig: NODE_4754_length_66_cov_421.363636
+[12:15:18] Skipping short (<200 bp) contig: NODE_4755_length_66_cov_294.181818
+[12:15:18] Skipping short (<200 bp) contig: NODE_4756_length_66_cov_144.818182
+[12:15:18] Skipping short (<200 bp) contig: NODE_4757_length_66_cov_12.909091
+[12:15:18] Skipping short (<200 bp) contig: NODE_4758_length_66_cov_10.909091
+[12:15:18] Skipping short (<200 bp) contig: NODE_4759_length_66_cov_10.454545
+[12:15:18] Skipping short (<200 bp) contig: NODE_4760_length_65_cov_223323.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4761_length_65_cov_845.700000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4762_length_65_cov_835.700000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4763_length_65_cov_622.300000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4764_length_65_cov_604.600000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4765_length_65_cov_324.600000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4766_length_65_cov_302.900000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4767_length_65_cov_298.300000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4768_length_65_cov_279.400000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4769_length_65_cov_279.200000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4770_length_65_cov_183.200000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4771_length_65_cov_143.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4772_length_65_cov_41.200000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4773_length_65_cov_13.700000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4774_length_65_cov_10.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4775_length_64_cov_480865.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4776_length_64_cov_165120.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4777_length_64_cov_160319.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4778_length_64_cov_1494.111111
+[12:15:18] Skipping short (<200 bp) contig: NODE_4779_length_64_cov_1428.444444
+[12:15:18] Skipping short (<200 bp) contig: NODE_4780_length_64_cov_860.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4781_length_64_cov_793.888889
+[12:15:18] Skipping short (<200 bp) contig: NODE_4782_length_64_cov_594.222222
+[12:15:18] Skipping short (<200 bp) contig: NODE_4783_length_64_cov_518.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4784_length_64_cov_110.555556
+[12:15:18] Skipping short (<200 bp) contig: NODE_4785_length_64_cov_25.222222
+[12:15:18] Skipping short (<200 bp) contig: NODE_4786_length_64_cov_22.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4787_length_64_cov_10.888889
+[12:15:18] Skipping short (<200 bp) contig: NODE_4788_length_63_cov_424923.625000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4789_length_63_cov_398071.375000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4790_length_63_cov_1245.625000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4791_length_63_cov_963.125000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4792_length_63_cov_962.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4793_length_63_cov_845.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4794_length_63_cov_644.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4795_length_63_cov_634.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4796_length_63_cov_572.625000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4797_length_63_cov_536.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4798_length_63_cov_413.625000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4799_length_63_cov_175.375000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4800_length_63_cov_149.125000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4801_length_63_cov_78.625000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4802_length_62_cov_293640.285714
+[12:15:18] Skipping short (<200 bp) contig: NODE_4803_length_62_cov_287098.714286
+[12:15:18] Skipping short (<200 bp) contig: NODE_4804_length_62_cov_1022.428571
+[12:15:18] Skipping short (<200 bp) contig: NODE_4805_length_62_cov_738.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4806_length_62_cov_365.571429
+[12:15:18] Skipping short (<200 bp) contig: NODE_4807_length_62_cov_353.857143
+[12:15:18] Skipping short (<200 bp) contig: NODE_4808_length_61_cov_458906.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4809_length_61_cov_334007.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4810_length_61_cov_273374.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4811_length_61_cov_221911.833333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4812_length_60_cov_442663.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4813_length_60_cov_191461.800000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4814_length_60_cov_184381.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4815_length_60_cov_140057.200000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4816_length_60_cov_2137.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4817_length_60_cov_763.400000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4818_length_60_cov_558.600000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4819_length_60_cov_364.600000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4820_length_60_cov_349.400000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4821_length_60_cov_243.200000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4822_length_60_cov_234.800000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4823_length_60_cov_218.800000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4824_length_60_cov_205.400000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4825_length_60_cov_181.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4826_length_60_cov_107.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4827_length_60_cov_37.200000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4828_length_60_cov_14.400000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4829_length_60_cov_11.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4830_length_60_cov_2.200000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4831_length_59_cov_514174.250000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4832_length_59_cov_477407.250000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4833_length_59_cov_281794.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4834_length_59_cov_246327.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4835_length_59_cov_221300.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4836_length_59_cov_174754.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4837_length_59_cov_124088.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4838_length_59_cov_118158.250000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4839_length_59_cov_1113.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4840_length_59_cov_834.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4841_length_59_cov_742.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4842_length_59_cov_431.250000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4843_length_59_cov_268.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4844_length_59_cov_215.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4845_length_59_cov_166.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4846_length_59_cov_105.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4847_length_59_cov_98.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4848_length_59_cov_90.250000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4849_length_59_cov_75.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4850_length_59_cov_71.750000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4851_length_59_cov_65.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4852_length_59_cov_61.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4853_length_59_cov_57.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4854_length_59_cov_46.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4855_length_59_cov_38.250000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4856_length_59_cov_24.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4857_length_59_cov_14.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4858_length_58_cov_478869.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4859_length_58_cov_432327.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4860_length_58_cov_347442.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4861_length_58_cov_319982.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4862_length_58_cov_251937.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4863_length_58_cov_203816.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4864_length_58_cov_202418.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4865_length_58_cov_184359.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4866_length_58_cov_180215.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4867_length_58_cov_175632.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4868_length_58_cov_159966.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4869_length_58_cov_121423.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4870_length_58_cov_117565.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4871_length_58_cov_2811.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4872_length_58_cov_1645.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4873_length_58_cov_1281.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4874_length_58_cov_1023.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4875_length_58_cov_780.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4876_length_58_cov_741.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4877_length_58_cov_684.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4878_length_58_cov_603.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4879_length_58_cov_393.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4880_length_58_cov_354.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4881_length_58_cov_294.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4882_length_58_cov_235.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4883_length_58_cov_190.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4884_length_58_cov_186.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4885_length_58_cov_178.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4886_length_58_cov_156.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4887_length_58_cov_152.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4888_length_58_cov_144.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4889_length_58_cov_139.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4890_length_58_cov_138.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4891_length_58_cov_128.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4892_length_58_cov_103.333333
+[12:15:18] Skipping short (<200 bp) contig: NODE_4893_length_58_cov_56.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4894_length_58_cov_51.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4895_length_58_cov_17.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4896_length_58_cov_17.666667
+[12:15:18] Skipping short (<200 bp) contig: NODE_4897_length_58_cov_15.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4898_length_58_cov_14.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4899_length_58_cov_7.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4900_length_57_cov_513752.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4901_length_57_cov_500937.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4902_length_57_cov_499379.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4903_length_57_cov_499185.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4904_length_57_cov_463771.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4905_length_57_cov_427761.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4906_length_57_cov_424707.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4907_length_57_cov_391995.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4908_length_57_cov_389491.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4909_length_57_cov_342546.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4910_length_57_cov_252656.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4911_length_57_cov_225035.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4912_length_57_cov_216891.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4913_length_57_cov_202417.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4914_length_57_cov_187811.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4915_length_57_cov_171036.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4916_length_57_cov_118978.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4917_length_57_cov_110431.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4918_length_57_cov_2588.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4919_length_57_cov_1347.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4920_length_57_cov_986.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4921_length_57_cov_907.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4922_length_57_cov_815.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4923_length_57_cov_713.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4924_length_57_cov_697.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4925_length_57_cov_661.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4926_length_57_cov_599.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4927_length_57_cov_480.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4928_length_57_cov_415.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4929_length_57_cov_400.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4930_length_57_cov_377.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4931_length_57_cov_367.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4932_length_57_cov_363.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4933_length_57_cov_324.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4934_length_57_cov_309.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4935_length_57_cov_285.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4936_length_57_cov_251.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4937_length_57_cov_195.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4938_length_57_cov_178.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4939_length_57_cov_177.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4940_length_57_cov_168.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4941_length_57_cov_168.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4942_length_57_cov_141.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4943_length_57_cov_117.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4944_length_57_cov_81.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4945_length_57_cov_70.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4946_length_57_cov_49.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4947_length_57_cov_20.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4948_length_57_cov_18.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4949_length_57_cov_18.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4950_length_57_cov_17.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4951_length_57_cov_16.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4952_length_57_cov_16.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4953_length_57_cov_14.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4954_length_57_cov_13.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4955_length_57_cov_10.500000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4956_length_57_cov_4.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4957_length_56_cov_528087.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4958_length_56_cov_524868.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4959_length_56_cov_523480.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4960_length_56_cov_512266.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4961_length_56_cov_511668.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4962_length_56_cov_502887.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4963_length_56_cov_499245.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4964_length_56_cov_492348.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4965_length_56_cov_439304.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4966_length_56_cov_430753.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4967_length_56_cov_429490.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4968_length_56_cov_412226.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4969_length_56_cov_382422.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4970_length_56_cov_358329.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4971_length_56_cov_328375.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4972_length_56_cov_307703.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4973_length_56_cov_292816.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4974_length_56_cov_270636.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4975_length_56_cov_247558.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4976_length_56_cov_246629.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4977_length_56_cov_212657.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4978_length_56_cov_187535.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4979_length_56_cov_185235.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4980_length_56_cov_179270.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4981_length_56_cov_173355.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4982_length_56_cov_158456.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4983_length_56_cov_128799.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4984_length_56_cov_121068.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4985_length_56_cov_119242.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4986_length_56_cov_14074.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4987_length_56_cov_5893.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4988_length_56_cov_5381.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4989_length_56_cov_2659.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4990_length_56_cov_1735.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4991_length_56_cov_1590.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4992_length_56_cov_1395.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4993_length_56_cov_1244.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4994_length_56_cov_923.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4995_length_56_cov_792.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4996_length_56_cov_636.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4997_length_56_cov_579.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4998_length_56_cov_569.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_4999_length_56_cov_523.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5000_length_56_cov_464.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5001_length_56_cov_301.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5002_length_56_cov_238.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5003_length_56_cov_226.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5004_length_56_cov_191.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5005_length_56_cov_191.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5006_length_56_cov_189.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5007_length_56_cov_181.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5008_length_56_cov_145.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5009_length_56_cov_134.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5010_length_56_cov_133.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5011_length_56_cov_126.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5012_length_56_cov_98.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5013_length_56_cov_96.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5014_length_56_cov_46.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5015_length_56_cov_41.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5016_length_56_cov_37.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5017_length_56_cov_19.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5018_length_56_cov_13.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5019_length_56_cov_12.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5020_length_56_cov_11.000000
+[12:15:18] Skipping short (<200 bp) contig: NODE_5021_length_56_cov_7.000000
+[12:15:18] Wrote 4405 contigs totalling 5875937 bp.
+[12:15:18] Predicting tRNAs and tmRNAs
+[12:15:18] Running: aragorn -l -gc11  -w annotation\/prokka_output\/nostoc_sp_c117\.fna
+[12:15:18] 1 tRNA-Trp c[7496,7569] 34 (cca)
+[12:15:18] 1 tRNA-Arg [7455,7529] 35 (tct)
+[12:15:18] 1 tRNA-Ala c[5438,5510] 34 (cgc)
+[12:15:18] 1 tRNA-Lys c[1546,1617] 33 (ttt)
+[12:15:18] 1 tRNA-Lys c[4654,4726] 33 (ctt)
+[12:15:18] 1 tRNA-Leu c[131,213] 36 (gag)
+[12:15:18] 1 tRNA-Pro c[47,122] 36 (tgg)
+[12:15:19] 1 tRNA-Leu c[2049,2130] 35 (tag)
+[12:15:19] 1 tRNA-Met [1409,1481] 34 (cat)
+[12:15:19] 1 tRNA-Ser c[5037,5130] 36 (gct)
+[12:15:19] 1 tRNA-His [3569,3642] 34 (gtg)
+[12:15:19] 1 tRNA-Arg [512,584] 34 (ccg)
+[12:15:19] 1 tRNA-Met c[2222,2298] 35 (cat)
+[12:15:19] 1 tRNA-Leu c[2231,2315] 35 (caa)
+[12:15:19] 1 tRNA-Ile [122,197] 35 (gat)
+[12:15:19] 2 tRNA-Ala [282,355] 34 (tgc)
+[12:15:19] 1 tRNA-Asp [140,213] 35 (gtc)
+[12:15:19] 1 tRNA-Arg c[1265,1341] 36 (cct)
+[12:15:19] 1 tRNA-Thr c[1076,1147] 33 (tgt)
+[12:15:20] 1 tRNA-Val c[-2,71] 34 (tac)
+[12:15:20] 1 tRNA-Ile c[1090,1188] 38 (gat)
+[12:15:20] 1 tRNA-Ser c[1565,1651] 36 (tga)
+[12:15:20] 1 tRNA-Gly c[56,126] 33 (tcc)
+[12:15:20] 1 tRNA-Phe [1056,1128] 34 (gaa)
+[12:15:20] 1 tRNA-Asn c[320,394] 33 (gtt)
+[12:15:20] 1 tRNA-Asp [1045,1123] 38 (gtc)
+[12:15:20] 2 tRNA-Glu [1126,1203] 36 (ctc)
+[12:15:20] 3 tRNA-Ser [1210,1280] 32 (cga)
+[12:15:20] 4 tRNA-Glu [1310,1385] 34 (ttc)
+[12:15:20] 1 tRNA-Ser [945,1033] 36 (cga)
+[12:15:20] 1 tRNA-Tyr [103,189] 38 (gta)
+[12:15:20] 2 tRNA-Ser [193,282] 33 (gct)
+[12:15:20] 3 tRNA-Arg [287,362] 35 (acg)
+[12:15:20] 4 tRNA-Phe [366,440] 35 (gaa)
+[12:15:20] 5 tRNA-Asn [449,523] 33 (gtt)
+[12:15:20] 6 tRNA-Gln [529,605] 35 (ctg)
+[12:15:20] 7 tRNA-Gln [610,686] 37 (ttg)
+[12:15:20] 8 tRNA-Leu [714,791] 35 (caa)
+[12:15:20] 9 tRNA-Pro [800,876] 35 (tgg)
+[12:15:20] 10 tRNA-Leu [880,954] 35 (tag)
+[12:15:20] 11 tRNA-Leu [974,1051] 35 (gag)
+[12:15:20] 12 tRNA-Lys [1094,1169] 34 (ttt)
+[12:15:20] 13 tRNA-Leu [1176,1250] 35 (taa)
+[12:15:20] 14 tRNA-Met [1252,1326] 35 (cat)
+[12:15:20] 1 tRNA-Pro [1128,1201] 35 (cgg)
+[12:15:20] 1 tRNA-Ser c[185,273] 36 (gga)
+[12:15:20] 1 tRNA-Arg [73,145] 33 (tct)
+[12:15:20] 2 tRNA-Ala [151,225] 35 (tgc)
+[12:15:20] 3 tRNA-His [231,306] 35 (gtg)
+[12:15:20] 1 tRNA-Pro c[66,139] 35 (ggg)
+[12:15:20] 1 tRNA-Thr c[148,219] 33 (cgt)
+[12:15:20] 1 tRNA-Met c[394,467] 35 (cat)
+[12:15:21] 1 tRNA-Gly [12,83] 33 (ccc)
+[12:15:21] 2 tRNA-Thr c[176,247] 33 (ggt)
+[12:15:21] 3 tRNA-Tyr c[306,390] 35 (gta)
+[12:15:21] 1 tRNA-Ala [-2,71] 34 (ggc)
+[12:15:21] 1 tRNA-Asn [2,75] 34 (gtt)
+[12:15:21] Found 57 tRNAs
+[12:15:21] Predicting Ribosomal RNAs
+[12:15:21] Running Barrnap with 4 threads
+[12:15:24] 1 gnl|X|HPFNLEKH_1002 112 23S ribosomal RNA (partial)
+[12:15:24] 2 gnl|X|HPFNLEKH_1472 1 16S ribosomal RNA (partial)
+[12:15:24] 3 gnl|X|HPFNLEKH_2037 1 16S ribosomal RNA (partial)
+[12:15:24] 4 gnl|X|HPFNLEKH_2622 1 16S ribosomal RNA (partial)
+[12:15:24] 5 gnl|X|HPFNLEKH_2755 1 16S ribosomal RNA (partial)
+[12:15:24] 6 gnl|X|HPFNLEKH_3784 72 5S ribosomal RNA
+[12:15:24] 7 gnl|X|HPFNLEKH_400 519 23S ribosomal RNA
+[12:15:24] 8 gnl|X|HPFNLEKH_932 174 23S ribosomal RNA (partial)
+[12:15:24] Found 8 rRNAs
+[12:15:24] Skipping ncRNA search, enable with --rfam if desired.
+[12:15:24] Total of 65 tRNA + rRNA features
+[12:15:24] Searching for CRISPR repeats
+[12:15:25] CRISPR1 gnl|X|HPFNLEKH_1382 459 with 5 spacers
+[12:15:25] CRISPR2 gnl|X|HPFNLEKH_3245 101 with 3 spacers
+[12:15:25] CRISPR3 gnl|X|HPFNLEKH_3437 25 with 4 spacers
+[12:15:25] CRISPR4 gnl|X|HPFNLEKH_4112 13 with 3 spacers
+[12:15:25] Found 4 CRISPRs
+[12:15:25] Predicting coding sequences
+[12:15:25] Contigs total 5875937 bp, so using single mode
+[12:15:25] Running: prodigal -i annotation\/prokka_output\/nostoc_sp_c117\.fna -c -m -g 11 -p single -f sco -q
+[12:15:32] Excluding CDS which overlaps existing RNA (rRNA) at gnl|X|HPFNLEKH_400:1124..1528 on - strand
+[12:15:33] Excluding CDS which overlaps existing RNA (rRNA) at gnl|X|HPFNLEKH_932:972..1703 on - strand
+[12:15:33] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|HPFNLEKH_957:762..1646 on - strand
+[12:15:33] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|HPFNLEKH_1069:222..566 on - strand
+[12:15:33] Excluding CDS which overlaps existing RNA (tRNA) at gnl|X|HPFNLEKH_1221:463..696 on + strand
+[12:15:33] Excluding CDS which overlaps existing RNA (repeat_region) at gnl|X|HPFNLEKH_1382:399..599 on + strand
+[12:15:34] Found 4882 CDS
+[12:15:34] Connecting features back to sequences
+[12:15:34] Not using genus-specific database. Try --usegenus to enable it.
+[12:15:34] Annotating CDS, please be patient.
+[12:15:34] Will use 4 CPUs for similarity searching.
+[12:15:37] There are still 4882 unannotated CDS left (started with 4882)
+[12:15:37] Will use blast to search against /root/miniconda3/envs/prokka_env/db/kingdom/Bacteria/IS with 4 CPUs
+[12:15:37] Running: cat annotation\/prokka_output\/nostoc_sp_c117\.IS\.tmp\.486\.faa | parallel --gnu --plain -j 4 --block 152013 --recstart '>' --pipe blastp -query - -db /root/miniconda3/envs/prokka_env/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/prokka_output\/nostoc_sp_c117\.IS\.tmp\.486\.blast 2> /dev/null
+[12:16:19] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.IS.tmp.486.faa
+[12:16:19] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.IS.tmp.486.blast
+[12:16:22] There are still 4845 unannotated CDS left (started with 4882)
+[12:16:22] Will use blast to search against /root/miniconda3/envs/prokka_env/db/kingdom/Bacteria/AMR with 4 CPUs
+[12:16:22] Running: cat annotation\/prokka_output\/nostoc_sp_c117\.AMR\.tmp\.486\.faa | parallel --gnu --plain -j 4 --block 150603 --recstart '>' --pipe blastp -query - -db /root/miniconda3/envs/prokka_env/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/prokka_output\/nostoc_sp_c117\.AMR\.tmp\.486\.blast 2> /dev/null
+[12:16:53] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.AMR.tmp.486.faa
+[12:16:53] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.AMR.tmp.486.blast
+[12:16:56] There are still 4845 unannotated CDS left (started with 4882)
+[12:16:56] Will use blast to search against /root/miniconda3/envs/prokka_env/db/kingdom/Bacteria/sprot with 4 CPUs
+[12:16:56] Running: cat annotation\/prokka_output\/nostoc_sp_c117\.sprot\.tmp\.486\.faa | parallel --gnu --plain -j 4 --block 150603 --recstart '>' --pipe blastp -query - -db /root/miniconda3/envs/prokka_env/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation\/prokka_output\/nostoc_sp_c117\.sprot\.tmp\.486\.blast 2> /dev/null
+[12:19:28] Modify product: Probable chromate transport protein => putative chromate transport protein
+[12:19:28] Modify product: Probable adenylyltransferase/sulfurtransferase MoeZ => putative adenylyltransferase/sulfurtransferase MoeZ
+[12:19:28] Modify product: Probable multidrug resistance ABC transporter ATP-binding/permease protein YheI => putative multidrug resistance ABC transporter ATP-binding/permease protein YheI
+[12:19:28] Modify product: Putative universal stress protein SA1532 => Putative universal stress protein
+[12:19:28] Modify product: Probable zinc-binding alcohol dehydrogenase Rv1895 => putative zinc-binding alcohol dehydrogenase
+[12:19:28] Modify product: Probable glutaredoxin ssr2061 => putative glutaredoxin
+[12:19:29] Modify product: Uncharacterized sugar epimerase YhfK => putative sugar epimerase YhfK
+[12:19:29] Modify product: Peptidoglycan-N-acetylglucosamine deacetylase BC_3618 => Peptidoglycan-N-acetylglucosamine deacetylase
+[12:19:29] Modify product: Probable fused nickel transport protein LarMN => putative fused nickel transport protein LarMN
+[12:19:29] Modify product: Acetyltransferase PA3944 => Acetyltransferase
+[12:19:29] Modify product: Uncharacterized protein Rv0502 => putative protein
+[12:19:29] Modify product: Probable copper-transporting ATPase PacS => putative copper-transporting ATPase PacS
+[12:19:29] Modify product: Uncharacterized cysteine-rich protein YhjQ => putative cysteine-rich protein YhjQ
+[12:19:29] Modify product: Uncharacterized ABC transporter ATP-binding protein YxlF => putative ABC transporter ATP-binding protein YxlF
+[12:19:29] Modify product: Probable peptidoglycan glycosyltransferase FtsW => putative peptidoglycan glycosyltransferase FtsW
+[12:19:29] Modify product: Probable copper-transporting ATPase PacS => putative copper-transporting ATPase PacS
+[12:19:29] Modify product: Probable cytochrome c oxidase subunit 3 => putative cytochrome c oxidase subunit 3
+[12:19:29] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[12:19:29] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[12:19:29] Modify product: Probable ABC transporter phosphonate/phosphite binding protein PhnD2 => putative ABC transporter phosphonate/phosphite binding protein PhnD2
+[12:19:29] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[12:19:29] Modify product: Uncharacterized protein Rv0628c => putative protein
+[12:19:29] Modify product: Putative universal stress protein SA1532 => Putative universal stress protein
+[12:19:29] Modify product: Probable protein kinase UbiB => putative protein kinase UbiB
+[12:19:29] Modify product: Uncharacterized protein YqeN => putative protein YqeN
+[12:19:29] Modify product: Uncharacterized transporter Rv2685 => putative transporter
+[12:19:29] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[12:19:29] Modify product: Putative universal stress protein SA1532 => Putative universal stress protein
+[12:19:29] Modify product: Uncharacterized protein YciO => putative protein YciO
+[12:19:29] Modify product: Probable serine/threonine-protein kinase PkwA => putative serine/threonine-protein kinase PkwA
+[12:19:29] Modify product: Carbon dioxide-concentrating mechanism protein CcmK homolog 1 => Carbon dioxide-concentrating mechanism protein CcmK 
+[12:19:29] Modify product: Carbon dioxide-concentrating mechanism protein CcmK homolog 2 => Carbon dioxide-concentrating mechanism protein CcmK 
+[12:19:30] Modify product: Probable ribonucleotide transport ATP-binding protein mkl => putative ribonucleotide transport ATP-binding protein mkl
+[12:19:30] Modify product: Uncharacterized protein Rv2004c => putative protein
+[12:19:30] Modify product: Probable cysteine desulfurase => putative cysteine desulfurase
+[12:19:30] Modify product: Rqc2 homolog RqcH => Rqc2 RqcH
+[12:19:30] Modify product: Thioredoxin-like protein slr0233 => Thioredoxin-like protein
+[12:19:30] Modify product: Probable undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase => putative undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase
+[12:19:30] Modify product: Probable ABC transporter-binding protein DR_1571 => putative ABC transporter-binding protein
+[12:19:30] Modify product: UPF0754 membrane protein SA1664 => hypothetical protein
+[12:19:30] Modify product: Putative universal stress protein SA1532 => Putative universal stress protein
+[12:19:30] Modify product: Uncharacterized protein Rv2067c => putative protein
+[12:19:30] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[12:19:30] Modify product: Probable serine/threonine-protein kinase PkwA => putative serine/threonine-protein kinase PkwA
+[12:19:30] Modify product: UPF0053 inner membrane protein YtfL => hypothetical protein
+[12:19:30] Modify product: Phage shock protein A homolog => Phage shock protein A 
+[12:19:30] Modify product: Phage shock protein A homolog => Phage shock protein A 
+[12:19:27] Modify product: Uncharacterized protein YqgN => putative protein YqgN
+[12:19:28] Modify product: Probable membrane transporter protein XF_0764 => putative membrane transporter protein
+[12:19:28] Modify product: Probable iron export permease protein FetB => putative iron export permease protein FetB
+[12:19:28] Modify product: UPF0234 protein MSMEG_1165/MSMEI_1134 => hypothetical protein
+[12:19:28] Modify product: UPF0758 protein YsxA => hypothetical protein
+[12:19:28] Modify product: Epimerase family protein SA0724 => Epimerase family protein
+[12:19:28] Modify product: Uncharacterized sugar epimerase YhfK => putative sugar epimerase YhfK
+[12:19:28] Modify product: PGL/p-HBAD biosynthesis glycosyltransferase Rv2957 => PGL/p-HBAD biosynthesis glycosyltransferase
+[12:19:28] Modify product: Uncharacterized ABC transporter ATP-binding protein YbiT => putative ABC transporter ATP-binding protein YbiT
+[12:19:28] Modify product: Phycocyanobilin lyase CpcT homolog => Phycocyanobilin lyase CpcT 
+[12:19:28] Modify product: Uncharacterized protein slr1565 => putative protein
+[12:19:28] Modify product: Uncharacterized RNA pseudouridine synthase Rv1711 => putative RNA pseudouridine synthase
+[12:19:28] Modify product: Uncharacterized membrane protein Rv2637 => putative membrane protein
+[12:19:28] Modify product: Probable undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase => putative undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase
+[12:19:28] Modify product: Putative anti-sigma factor antagonist TM_1442 => Putative anti-sigma factor antagonist
+[12:19:28] Modify product: Vitamin K epoxide reductase homolog => Vitamin K epoxide reductase 
+[12:19:28] Modify product: Uncharacterized oxidoreductase Rv2298 => putative oxidoreductase
+[12:19:28] Modify product: Uncharacterized PIN and TRAM-domain containing protein YacL => putative PIN and TRAM-domain containing protein YacL
+[12:19:28] Modify product: Putative O-methyltransferase Rv1220c => Putative O-methyltransferase
+[12:19:28] Modify product: Uncharacterized oxidoreductase MSMEG_1603/MSMEI_1564 => putative oxidoreductase/MSMEI_1564
+[12:19:29] Modify product: Probable siderophore transport system permease protein YfiZ => putative siderophore transport system permease protein YfiZ
+[12:19:29] Modify product: Uncharacterized protein DR_1314 => putative protein
+[12:19:29] Modify product: UPF0182 protein MSMEG_1959/MSMEI_1915 => hypothetical protein
+[12:19:29] Modify product: Probable ATP-dependent transporter SufC => putative ATP-dependent transporter SufC
+[12:19:29] Modify product: Probable serine/threonine-protein kinase PkwA => putative serine/threonine-protein kinase PkwA
+[12:19:29] Modify product: Probable molybdenum cofactor guanylyltransferase => putative molybdenum cofactor guanylyltransferase
+[12:19:29] Modify product: Probable cytochrome c oxidase subunit 1 => putative cytochrome c oxidase subunit 1
+[12:19:29] Modify product: Probable dual-specificity RNA methyltransferase RlmN => putative dual-specificity RNA methyltransferase RlmN
+[12:19:29] Modify product: Transcriptional repressor SmtB homolog => Transcriptional repressor SmtB 
+[12:19:29] Modify product: Uncharacterized protein HI_0933 => putative protein
+[12:19:29] Modify product: Phosphorylated carbohydrates phosphatase TM_1254 => Phosphorylated carbohydrates phosphatase
+[12:19:29] Modify product: GTP cyclohydrolase 1 type 2 homolog => GTP cyclohydrolase 1 type 2 
+[12:19:29] Modify product: UPF0194 membrane protein YbhG => hypothetical protein
+[12:19:29] Modify product: Probable copper-importing P-type ATPase A => putative copper-importing P-type ATPase A
+[12:19:29] Modify product: Probable glucosamine-6-phosphate deaminase 2 => putative glucosamine-6-phosphate deaminase 2
+[12:19:29] Modify product: Probable siderophore-binding lipoprotein YfiY => putative siderophore-binding lipoprotein YfiY
+[12:19:29] Modify product: Transcriptional repressor SmtB homolog => Transcriptional repressor SmtB 
+[12:19:29] Modify product: Uncharacterized ABC transporter ATP-binding protein TM_0288 => putative ABC transporter ATP-binding protein
+[12:19:29] Modify product: Stringent starvation protein A homolog => Stringent starvation protein A 
+[12:19:29] Modify product: Probable serine/threonine-protein kinase PkwA => putative serine/threonine-protein kinase PkwA
+[12:19:29] Modify product: Carbon dioxide-concentrating mechanism protein CcmK homolog 4 => Carbon dioxide-concentrating mechanism protein CcmK 
+[12:19:29] Modify product: Uncharacterized ABC transporter ATP-binding protein YknY => putative ABC transporter ATP-binding protein YknY
+[12:19:29] Modify product: Uncharacterized oxidoreductase SA2266 => putative oxidoreductase
+[12:19:29] Modify product: Probable siderophore-binding lipoprotein YfiY => putative siderophore-binding lipoprotein YfiY
+[12:19:29] Modify product: Uncharacterized sugar transferase EpsL => putative sugar transferase EpsL
+[12:19:29] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[12:19:29] Modify product: Sulfurtransferase Alvin_2599 => Sulfurtransferase
+[12:19:29] Modify product: Uncharacterized cysteine-rich protein YhjQ => putative cysteine-rich protein YhjQ
+[12:19:29] Modify product: Monocarboxylate 2-oxoacid-binding periplasmic protein all3028 => Monocarboxylate 2-oxoacid-binding periplasmic protein
+[12:19:30] Modify product: Uncharacterized signaling protein PA1727 => putative signaling protein
+[12:19:30] Modify product: Peptidoglycan-N-acetylglucosamine deacetylase BC_3618 => Peptidoglycan-N-acetylglucosamine deacetylase
+[12:19:30] Modify product: Uncharacterized signaling protein PA1727 => putative signaling protein
+[12:19:30] Modify product: UPF0145 protein YbjQ => hypothetical protein
+[12:19:30] Modify product: Probable cadmium-transporting ATPase => putative cadmium-transporting ATPase
+[12:19:30] Modify product: Membrane-associated protein slr1513 => Membrane-associated protein
+[12:19:30] Modify product: Uncharacterized protein Rv1829 => putative protein
+[12:19:30] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[12:19:30] Modify product: Uncharacterized N-acetyltransferase YafP => putative N-acetyltransferase YafP
+[12:19:30] Modify product: Uncharacterized HTH-type transcriptional regulator YxaF => putative HTH-type transcriptional regulator YxaF
+[12:19:30] Modify product: 1,4-alpha-glucan branching enzyme TTHA1902 => 1,4-alpha-glucan branching enzyme
+[12:19:30] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[12:19:30] Modify product: Uncharacterized protein alr4550 => putative protein
+[12:19:30] Modify product: Uncharacterized protein alr4550 => putative protein
+[12:19:30] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[12:19:30] Modify product: Probable murein peptide carboxypeptidase => putative murein peptide carboxypeptidase
+[12:19:30] Modify product: Uncharacterized protein alr4550 => putative protein
+[12:19:30] Modify product: Probable zinc-binding alcohol dehydrogenase Rv1895 => putative zinc-binding alcohol dehydrogenase
+[12:19:30] Modify product: Putative low molecular weight protein-tyrosine-phosphatase slr0328 => Putative low molecular weight protein-tyrosine-phosphatase
+[12:19:30] Modify product: Uncharacterized FAD-linked oxidoreductase Rv2280 => putative FAD-linked oxidoreductase
+[12:19:30] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[12:19:30] Modify product: Leu/Ile/Val-binding protein homolog 3 => Leu/Ile/Val-binding protein 
+[12:19:30] Modify product: Probable serine/threonine-protein kinase PkwA => putative serine/threonine-protein kinase PkwA
+[12:19:30] Modify product: Probable 30S ribosomal protein PSRP-3 => putative 30S ribosomal protein PSRP-3
+[12:19:30] Modify product: Uncharacterized protein Rv2030c => putative protein
+[12:19:31] Modify product: Probable serine/threonine-protein kinase PkwA => putative serine/threonine-protein kinase PkwA
+[12:19:31] Modify product: Zinc-type alcohol dehydrogenase-like protein SA1988 => Zinc-type alcohol dehydrogenase-like protein
+[12:19:31] Modify product: Protease HtpX homolog => Protease HtpX 
+[12:19:31] Modify product: Probable nicotinate-nucleotide pyrophosphorylase [carboxylating] => putative nicotinate-nucleotide pyrophosphorylase [carboxylating]
+[12:19:31] Modify product: Probable serine/threonine-protein kinase PkwA => putative serine/threonine-protein kinase PkwA
+[12:19:31] Modify product: Uncharacterized protein alr4550 => putative protein
+[12:19:31] Modify product: Uncharacterized protein Rv0887c => putative protein
+[12:19:31] Modify product: Uncharacterized ABC transporter ATP-binding protein YknY => putative ABC transporter ATP-binding protein YknY
+[12:19:31] Modify product: GTP-binding protein TypA/BipA homolog => GTP-binding protein TypA/BipA 
+[12:19:31] Modify product: N-glycosidase Npun_R5314 => N-glycosidase
+[12:19:31] Modify product: Probable 2-phosphosulfolactate phosphatase => putative 2-phosphosulfolactate phosphatase
+[12:19:31] Modify product: Putative cystathionine beta-synthase Rv1077 => Putative cystathionine beta-synthase
+[12:19:31] Modify product: Probable ferredoxin/ferredoxin--NADP reductase => putative ferredoxin/ferredoxin--NADP reductase
+[12:19:31] Modify product: UPF0761 membrane protein YihY => hypothetical protein
+[12:19:31] Modify product: Uncharacterized protein HI_1349 => putative protein
+[12:19:31] Modify product: Uncharacterized protein RP812 => putative protein RP812
+[12:19:31] Modify product: Uncharacterized inner membrane transporter YhbE => putative inner membrane transporter YhbE
+[12:19:31] Modify product: Uncharacterized oxidoreductase Rv2900c => putative oxidoreductase
+[12:19:31] Modify product: Probable serine/threonine-protein kinase PkwA => putative serine/threonine-protein kinase PkwA
+[12:19:31] Modify product: Uncharacterized protein YciH => putative protein YciH
+[12:19:31] Modify product: UPF0382 membrane protein YwdK => hypothetical protein
+[12:19:31] Modify product: Probable siderophore-binding lipoprotein YfiY => putative siderophore-binding lipoprotein YfiY
+[12:19:32] Modify product: Phosphate-specific transport system accessory protein PhoU homolog => Phosphate-specific transport system accessory protein PhoU 
+[12:19:32] Modify product: Uncharacterized N-acetyltransferase YafP => putative N-acetyltransferase YafP
+[12:19:32] Modify product: Uncharacterized FAD-linked oxidoreductase Rv2280 => putative FAD-linked oxidoreductase
+[12:19:32] Modify product: Uncharacterized protein alr4550 => putative protein
+[12:19:32] Cleaned 147 /product names
+[12:19:32] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.sprot.tmp.486.faa
+[12:19:32] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.sprot.tmp.486.blast
+[12:19:33] There are still 3332 unannotated CDS left (started with 4882)
+[12:19:33] Will use hmmer3 to search against /root/miniconda3/envs/prokka_env/db/hmm/HAMAP.hmm with 4 CPUs
+[12:19:33] Running: cat annotation\/prokka_output\/nostoc_sp_c117\.HAMAP\.hmm\.tmp\.486\.faa | parallel --gnu --plain -j 4 --block 91405 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /root/miniconda3/envs/prokka_env/db/hmm/HAMAP.hmm /dev/stdin > annotation\/prokka_output\/nostoc_sp_c117\.HAMAP\.hmm\.tmp\.486\.hmmer3 2> /dev/null
+[12:20:47] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.HAMAP.hmm.tmp.486.faa
+[12:20:47] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.HAMAP.hmm.tmp.486.hmmer3
+[12:20:47] Labelling remaining 2973 proteins as 'hypothetical protein'
+[12:20:47] Possible /pseudo 'DNA-directed RNA polymerase subunit beta'' at gnl|X|HPFNLEKH_8 position 11217
+[12:20:47] Possible /pseudo 'Phycobilisome rod-core linker polypeptide CpcG4' at gnl|X|HPFNLEKH_34 position 2651
+[12:20:47] Possible /pseudo 'Phage shock protein A ' at gnl|X|HPFNLEKH_71 position 4634
+[12:20:47] Possible /pseudo 'ATP-dependent Clp protease proteolytic subunit' at gnl|X|HPFNLEKH_83 position 3778
+[12:20:47] Possible /pseudo 'Tol-Pal system protein TolB' at gnl|X|HPFNLEKH_89 position 4549
+[12:20:47] Possible /pseudo 'Sensor histidine kinase RcsC' at gnl|X|HPFNLEKH_102 position 1309
+[12:20:47] Possible /pseudo 'Carbon dioxide-concentrating mechanism protein CcmK ' at gnl|X|HPFNLEKH_186 position 4434
+[12:20:47] Possible /pseudo 'putative zinc protease' at gnl|X|HPFNLEKH_350 position 1441
+[12:20:47] Possible /pseudo 'D-inositol-3-phosphate glycosyltransferase' at gnl|X|HPFNLEKH_476 position 1287
+[12:20:47] Possible /pseudo 'IS110 family transposase ISMae40' at gnl|X|HPFNLEKH_518 position 1762
+[12:20:47] Possible /pseudo 'Photosystem I reaction center subunit PsaK' at gnl|X|HPFNLEKH_1000 position 894
+[12:20:47] Possible /pseudo 'IS5 family transposase ISAva7' at gnl|X|HPFNLEKH_1141 position 800
+[12:20:47] Possible /pseudo 'IS630 family transposase IS895' at gnl|X|HPFNLEKH_1184 position 665
+[12:20:47] Possible /pseudo 'ISAs1 family transposase ISAsp2' at gnl|X|HPFNLEKH_1357 position 403
+[12:20:47] Possible /pseudo 'IS5 family transposase ISAva7' at gnl|X|HPFNLEKH_1710 position 435
+[12:20:47] Possible /pseudo 'Nuclease' at gnl|X|HPFNLEKH_1893 position 374
+[12:20:47] Found 1236 unique /gene codes.
+[12:20:47] Fixed 2 duplicate /gene - tolR_1 tolR_2
+[12:20:47] Fixed 3 duplicate /gene - mdtA_1 mdtA_2 mdtA_3
+[12:20:47] Fixed 2 duplicate /gene - gyrA_1 gyrA_2
+[12:20:47] Fixed 2 duplicate /gene - cphB_1 cphB_2
+[12:20:47] Fixed 2 duplicate /gene - recB_1 recB_2
+[12:20:47] Fixed 3 duplicate /gene - dps_1 dps_2 dps_3
+[12:20:47] Fixed 2 duplicate /gene - gsiA_1 gsiA_2
+[12:20:47] Fixed 3 duplicate /gene - hlyD_1 hlyD_2 hlyD_3
+[12:20:47] Fixed 2 duplicate /gene - nifD_1 nifD_2
+[12:20:47] Fixed 7 duplicate /gene - tolB_1 tolB_2 tolB_3 tolB_4 tolB_5 tolB_6 tolB_7
+[12:20:47] Fixed 2 duplicate /gene - hisD_1 hisD_2
+[12:20:47] Fixed 3 duplicate /gene - apaH_1 apaH_2 apaH_3
+[12:20:47] Fixed 5 duplicate /gene - menH_1 menH_2 menH_3 menH_4 menH_5
+[12:20:47] Fixed 2 duplicate /gene - gmd_1 gmd_2
+[12:20:47] Fixed 2 duplicate /gene - surE_1 surE_2
+[12:20:47] Fixed 2 duplicate /gene - cobD_1 cobD_2
+[12:20:47] Fixed 2 duplicate /gene - pgcA_1 pgcA_2
+[12:20:47] Fixed 18 duplicate /gene - sasA_1 sasA_2 sasA_3 sasA_4 sasA_5 sasA_6 sasA_7 sasA_8 sasA_9 sasA_10 sasA_11 sasA_12 sasA_13 sasA_14 sasA_15 sasA_16 sasA_17 sasA_18
+[12:20:47] Fixed 2 duplicate /gene - folE_1 folE_2
+[12:20:47] Fixed 2 duplicate /gene - glpE_1 glpE_2
+[12:20:47] Fixed 2 duplicate /gene - glgP_1 glgP_2
+[12:20:47] Fixed 2 duplicate /gene - nfuA_1 nfuA_2
+[12:20:47] Fixed 5 duplicate /gene - mprA_1 mprA_2 mprA_3 mprA_4 mprA_5
+[12:20:47] Fixed 2 duplicate /gene - nrgA_1 nrgA_2
+[12:20:47] Fixed 2 duplicate /gene - petB_1 petB_2
+[12:20:47] Fixed 2 duplicate /gene - dusB_1 dusB_2
+[12:20:47] Fixed 2 duplicate /gene - infA_1 infA_2
+[12:20:47] Fixed 2 duplicate /gene - kdpD_1 kdpD_2
+[12:20:47] Fixed 3 duplicate /gene - psaK_1 psaK_2 psaK_3
+[12:20:47] Fixed 2 duplicate /gene - tal_1 tal_2
+[12:20:47] Fixed 2 duplicate /gene - yedY1_1 yedY1_2
+[12:20:47] Fixed 2 duplicate /gene - trxA_1 trxA_2
+[12:20:47] Fixed 2 duplicate /gene - rip3_1 rip3_2
+[12:20:47] Fixed 2 duplicate /gene - hisC_1 hisC_2
+[12:20:47] Fixed 2 duplicate /gene - rhaS_1 rhaS_2
+[12:20:47] Fixed 3 duplicate /gene - xerC_1 xerC_2 xerC_3
+[12:20:47] Fixed 2 duplicate /gene - tagU_1 tagU_2
+[12:20:47] Fixed 2 duplicate /gene - nrtB_1 nrtB_2
+[12:20:47] Fixed 2 duplicate /gene - glgA_1 glgA_2
+[12:20:47] Fixed 3 duplicate /gene - kmo_1 kmo_2 kmo_3
+[12:20:47] Fixed 4 duplicate /gene - ubiB_1 ubiB_2 ubiB_3 ubiB_4
+[12:20:47] Fixed 2 duplicate /gene - pstB_1 pstB_2
+[12:20:47] Fixed 5 duplicate /gene - walR_1 walR_2 walR_3 walR_4 walR_5
+[12:20:47] Fixed 2 duplicate /gene - rpsU1_1 rpsU1_2
+[12:20:47] Fixed 11 duplicate /gene - COQ5_1 COQ5_2 COQ5_3 COQ5_4 COQ5_5 COQ5_6 COQ5_7 COQ5_8 COQ5_9 COQ5_10 COQ5_11
+[12:20:47] Fixed 2 duplicate /gene - gpmA_1 gpmA_2
+[12:20:47] Fixed 3 duplicate /gene - clcD_1 clcD_2 clcD_3
+[12:20:47] Fixed 2 duplicate /gene - qmcA_1 qmcA_2
+[12:20:47] Fixed 4 duplicate /gene - luxQ_1 luxQ_2 luxQ_3 luxQ_4
+[12:20:47] Fixed 2 duplicate /gene - gsiD_1 gsiD_2
+[12:20:47] Fixed 2 duplicate /gene - gcvT_1 gcvT_2
+[12:20:47] Fixed 2 duplicate /gene - hspA_1 hspA_2
+[12:20:47] Fixed 3 duplicate /gene - trpC_1 trpC_2 trpC_3
+[12:20:47] Fixed 2 duplicate /gene - infC_1 infC_2
+[12:20:47] Fixed 3 duplicate /gene - lacF_1 lacF_2 lacF_3
+[12:20:47] Fixed 5 duplicate /gene - atoS_1 atoS_2 atoS_3 atoS_4 atoS_5
+[12:20:47] Fixed 2 duplicate /gene - nifK_1 nifK_2
+[12:20:47] Fixed 2 duplicate /gene - prmA_1 prmA_2
+[12:20:47] Fixed 2 duplicate /gene - copA_1 copA_2
+[12:20:47] Fixed 2 duplicate /gene - dfa5_1 dfa5_2
+[12:20:47] Fixed 3 duplicate /gene - iscS_1 iscS_2 iscS_3
+[12:20:47] Fixed 2 duplicate /gene - cmpB_1 cmpB_2
+[12:20:47] Fixed 4 duplicate /gene - mdtC_1 mdtC_2 mdtC_3 mdtC_4
+[12:20:47] Fixed 3 duplicate /gene - gph_1 gph_2 gph_3
+[12:20:47] Fixed 3 duplicate /gene - cmpR_1 cmpR_2 cmpR_3
+[12:20:47] Fixed 2 duplicate /gene - kdpA_1 kdpA_2
+[12:20:47] Fixed 2 duplicate /gene - btuF_1 btuF_2
+[12:20:47] Fixed 2 duplicate /gene - clpC_1 clpC_2
+[12:20:47] Fixed 3 duplicate /gene - cmpC_1 cmpC_2 cmpC_3
+[12:20:47] Fixed 3 duplicate /gene - dhaA_1 dhaA_2 dhaA_3
+[12:20:47] Fixed 2 duplicate /gene - cphA_1 cphA_2
+[12:20:47] Fixed 2 duplicate /gene - prpC_1 prpC_2
+[12:20:47] Fixed 2 duplicate /gene - pyk_1 pyk_2
+[12:20:47] Fixed 4 duplicate /gene - clpP_1 clpP_2 clpP_3 clpP_4
+[12:20:47] Fixed 2 duplicate /gene - ald_1 ald_2
+[12:20:47] Fixed 2 duplicate /gene - atpG_1 atpG_2
+[12:20:47] Fixed 2 duplicate /gene - carC_1 carC_2
+[12:20:47] Fixed 2 duplicate /gene - ziaR_1 ziaR_2
+[12:20:47] Fixed 2 duplicate /gene - ctaE_1 ctaE_2
+[12:20:47] Fixed 2 duplicate /gene - pchR_1 pchR_2
+[12:20:47] Fixed 2 duplicate /gene - bepA_1 bepA_2
+[12:20:47] Fixed 4 duplicate /gene - nucA_1 nucA_2 nucA_3 nucA_4
+[12:20:47] Fixed 5 duplicate /gene - ftsH_1 ftsH_2 ftsH_3 ftsH_4 ftsH_5
+[12:20:47] Fixed 3 duplicate /gene - cmpD_1 cmpD_2 cmpD_3
+[12:20:47] Fixed 3 duplicate /gene - trpB_1 trpB_2 trpB_3
+[12:20:47] Fixed 2 duplicate /gene - rnr_1 rnr_2
+[12:20:47] Fixed 2 duplicate /gene - desV_1 desV_2
+[12:20:47] Fixed 3 duplicate /gene - fabG_1 fabG_2 fabG_3
+[12:20:47] Fixed 4 duplicate /gene - aroF_1 aroF_2 aroF_3 aroF_4
+[12:20:47] Fixed 2 duplicate /gene - nhaS3_1 nhaS3_2
+[12:20:47] Fixed 2 duplicate /gene - kefB_1 kefB_2
+[12:20:47] Fixed 10 duplicate /gene - btuD_1 btuD_2 btuD_3 btuD_4 btuD_5 btuD_6 btuD_7 btuD_8 btuD_9 btuD_10
+[12:20:47] Fixed 2 duplicate /gene - nrtA_1 nrtA_2
+[12:20:47] Fixed 2 duplicate /gene - livH_1 livH_2
+[12:20:47] Fixed 2 duplicate /gene - pstA_1 pstA_2
+[12:20:47] Fixed 2 duplicate /gene - hemF_1 hemF_2
+[12:20:47] Fixed 2 duplicate /gene - psbA2_1 psbA2_2
+[12:20:47] Fixed 8 duplicate /gene - pkwA_1 pkwA_2 pkwA_3 pkwA_4 pkwA_5 pkwA_6 pkwA_7 pkwA_8
+[12:20:47] Fixed 2 duplicate /gene - yafP_1 yafP_2
+[12:20:47] Fixed 2 duplicate /gene - proA_1 proA_2
+[12:20:47] Fixed 3 duplicate /gene - cya_1 cya_2 cya_3
+[12:20:47] Fixed 3 duplicate /gene - petC_1 petC_2 petC_3
+[12:20:47] Fixed 3 duplicate /gene - rihA_1 rihA_2 rihA_3
+[12:20:47] Fixed 2 duplicate /gene - pyrD_1 pyrD_2
+[12:20:47] Fixed 2 duplicate /gene - rbn_1 rbn_2
+[12:20:47] Fixed 3 duplicate /gene - yfiY_1 yfiY_2 yfiY_3
+[12:20:47] Fixed 6 duplicate /gene - ycf3_1 ycf3_2 ycf3_3 ycf3_4 ycf3_5 ycf3_6
+[12:20:47] Fixed 8 duplicate /gene - cckA_1 cckA_2 cckA_3 cckA_4 cckA_5 cckA_6 cckA_7 cckA_8
+[12:20:47] Fixed 2 duplicate /gene - cysK1_1 cysK1_2
+[12:20:47] Fixed 2 duplicate /gene - map_1 map_2
+[12:20:47] Fixed 3 duplicate /gene - pds_1 pds_2 pds_3
+[12:20:47] Fixed 2 duplicate /gene - teaD_1 teaD_2
+[12:20:47] Fixed 2 duplicate /gene - dppB_1 dppB_2
+[12:20:47] Fixed 2 duplicate /gene - merR1_1 merR1_2
+[12:20:47] Fixed 2 duplicate /gene - apcD_1 apcD_2
+[12:20:47] Fixed 2 duplicate /gene - ctpC_1 ctpC_2
+[12:20:47] Fixed 2 duplicate /gene - kdpB_1 kdpB_2
+[12:20:47] Fixed 3 duplicate /gene - cph2_1 cph2_2 cph2_3
+[12:20:47] Fixed 2 duplicate /gene - pyrC_1 pyrC_2
+[12:20:47] Fixed 3 duplicate /gene - ltxB_1 ltxB_2 ltxB_3
+[12:20:47] Fixed 4 duplicate /gene - cheB_1 cheB_2 cheB_3 cheB_4
+[12:20:47] Fixed 2 duplicate /gene - nadK_1 nadK_2
+[12:20:47] Fixed 3 duplicate /gene - pipB2_1 pipB2_2 pipB2_3
+[12:20:47] Fixed 3 duplicate /gene - cph1_1 cph1_2 cph1_3
+[12:20:47] Fixed 2 duplicate /gene - clpB1_1 clpB1_2
+[12:20:47] Fixed 2 duplicate /gene - merA_1 merA_2
+[12:20:47] Fixed 2 duplicate /gene - COQ3_1 COQ3_2
+[12:20:47] Fixed 3 duplicate /gene - degU_1 degU_2 degU_3
+[12:20:47] Fixed 2 duplicate /gene - fbiC_1 fbiC_2
+[12:20:47] Fixed 4 duplicate /gene - sigA2_1 sigA2_2 sigA2_3 sigA2_4
+[12:20:47] Fixed 2 duplicate /gene - ecfA2_1 ecfA2_2
+[12:20:47] Fixed 2 duplicate /gene - arnT_1 arnT_2
+[12:20:47] Fixed 2 duplicate /gene - uvrB_1 uvrB_2
+[12:20:47] Fixed 2 duplicate /gene - tldD_1 tldD_2
+[12:20:47] Fixed 2 duplicate /gene - rplX_1 rplX_2
+[12:20:47] Fixed 3 duplicate /gene - phoR_1 phoR_2 phoR_3
+[12:20:47] Fixed 2 duplicate /gene - cpcG4_1 cpcG4_2
+[12:20:47] Fixed 3 duplicate /gene - iolG_1 iolG_2 iolG_3
+[12:20:47] Fixed 3 duplicate /gene - ppsA_1 ppsA_2 ppsA_3
+[12:20:47] Fixed 2 duplicate /gene - yjiA_1 yjiA_2
+[12:20:47] Fixed 2 duplicate /gene - recD2_1 recD2_2
+[12:20:47] Fixed 2 duplicate /gene - mscS_1 mscS_2
+[12:20:47] Fixed 3 duplicate /gene - dfa3_1 dfa3_2 dfa3_3
+[12:20:47] Fixed 2 duplicate /gene - rhaR_1 rhaR_2
+[12:20:47] Fixed 2 duplicate /gene - spkB_1 spkB_2
+[12:20:47] Fixed 2 duplicate /gene - norV_1 norV_2
+[12:20:47] Fixed 2 duplicate /gene - sipT_1 sipT_2
+[12:20:47] Fixed 2 duplicate /gene - cbiC_1 cbiC_2
+[12:20:47] Fixed 5 duplicate /gene - cpdA_1 cpdA_2 cpdA_3 cpdA_4 cpdA_5
+[12:20:47] Fixed 2 duplicate /gene - menF_1 menF_2
+[12:20:47] Fixed 3 duplicate /gene - nuoL_1 nuoL_2 nuoL_3
+[12:20:47] Fixed 2 duplicate /gene - rpoD_1 rpoD_2
+[12:20:47] Fixed 4 duplicate /gene - rcp1_1 rcp1_2 rcp1_3 rcp1_4
+[12:20:47] Fixed 2 duplicate /gene - cobN_1 cobN_2
+[12:20:47] Fixed 3 duplicate /gene - moaA_1 moaA_2 moaA_3
+[12:20:47] Fixed 2 duplicate /gene - lpxG_1 lpxG_2
+[12:20:47] Fixed 3 duplicate /gene - egtB_1 egtB_2 egtB_3
+[12:20:47] Fixed 2 duplicate /gene - mrcA_1 mrcA_2
+[12:20:47] Fixed 6 duplicate /gene - dnaJ_1 dnaJ_2 dnaJ_3 dnaJ_4 dnaJ_5 dnaJ_6
+[12:20:47] Fixed 2 duplicate /gene - menA_1 menA_2
+[12:20:47] Fixed 2 duplicate /gene - kaiB_1 kaiB_2
+[12:20:47] Fixed 2 duplicate /gene - susA_1 susA_2
+[12:20:47] Fixed 2 duplicate /gene - tolQ_1 tolQ_2
+[12:20:47] Fixed 3 duplicate /gene - bcp_1 bcp_2 bcp_3
+[12:20:47] Fixed 3 duplicate /gene - petJ_1 petJ_2 petJ_3
+[12:20:47] Fixed 2 duplicate /gene - dnaK2_1 dnaK2_2
+[12:20:47] Fixed 2 duplicate /gene - clpS_1 clpS_2
+[12:20:47] Fixed 2 duplicate /gene - bicA_1 bicA_2
+[12:20:47] Fixed 2 duplicate /gene - msrA_1 msrA_2
+[12:20:47] Fixed 2 duplicate /gene - nadD_1 nadD_2
+[12:20:47] Fixed 2 duplicate /gene - patA_1 patA_2
+[12:20:47] Fixed 2 duplicate /gene - ftsH2_1 ftsH2_2
+[12:20:47] Fixed 2 duplicate /gene - rnc_1 rnc_2
+[12:20:47] Fixed 3 duplicate /gene - hcaB_1 hcaB_2 hcaB_3
+[12:20:47] Fixed 2 duplicate /gene - yfcG_1 yfcG_2
+[12:20:47] Fixed 2 duplicate /gene - der_1 der_2
+[12:20:47] Fixed 4 duplicate /gene - lptB_1 lptB_2 lptB_3 lptB_4
+[12:20:47] Fixed 2 duplicate /gene - yhfK_1 yhfK_2
+[12:20:47] Fixed 3 duplicate /gene - liaR_1 liaR_2 liaR_3
+[12:20:47] Fixed 2 duplicate /gene - sppA_1 sppA_2
+[12:20:47] Fixed 2 duplicate /gene - vapC_1 vapC_2
+[12:20:47] Fixed 2 duplicate /gene - mntB_1 mntB_2
+[12:20:47] Fixed 2 duplicate /gene - prsA_1 prsA_2
+[12:20:47] Fixed 2 duplicate /gene - bspRIM_1 bspRIM_2
+[12:20:47] Fixed 2 duplicate /gene - lip1_1 lip1_2
+[12:20:47] Fixed 2 duplicate /gene - sir_1 sir_2
+[12:20:47] Fixed 2 duplicate /gene - pyrE_1 pyrE_2
+[12:20:47] Fixed 3 duplicate /gene - livF_1 livF_2 livF_3
+[12:20:47] Fixed 12 duplicate /gene - pknD_1 pknD_2 pknD_3 pknD_4 pknD_5 pknD_6 pknD_7 pknD_8 pknD_9 pknD_10 pknD_11 pknD_12
+[12:20:47] Fixed 2 duplicate /gene - rsbW_1 rsbW_2
+[12:20:47] Fixed 2 duplicate /gene - htrA_1 htrA_2
+[12:20:47] Fixed 2 duplicate /gene - vldH_1 vldH_2
+[12:20:47] Fixed 7 duplicate /gene - cpoB_1 cpoB_2 cpoB_3 cpoB_4 cpoB_5 cpoB_6 cpoB_7
+[12:20:47] Fixed 5 duplicate /gene - ndhD1_1 ndhD1_2 ndhD1_3 ndhD1_4 ndhD1_5
+[12:20:47] Fixed 4 duplicate /gene - macB_1 macB_2 macB_3 macB_4
+[12:20:47] Fixed 3 duplicate /gene - glnQ_1 glnQ_2 glnQ_3
+[12:20:47] Fixed 2 duplicate /gene - nifJ_1 nifJ_2
+[12:20:47] Fixed 2 duplicate /gene - adk_1 adk_2
+[12:20:47] Fixed 2 duplicate /gene - yhjQ_1 yhjQ_2
+[12:20:47] Fixed 2 duplicate /gene - atpD_1 atpD_2
+[12:20:47] Fixed 3 duplicate /gene - smc_1 smc_2 smc_3
+[12:20:47] Fixed 2 duplicate /gene - fabF_1 fabF_2
+[12:20:47] Fixed 2 duplicate /gene - pbsA1_1 pbsA1_2
+[12:20:47] Fixed 3 duplicate /gene - cugP_1 cugP_2 cugP_3
+[12:20:47] Fixed 2 duplicate /gene - lnrL_1 lnrL_2
+[12:20:47] Fixed 2 duplicate /gene - apxIB_1 apxIB_2
+[12:20:47] Fixed 33 duplicate /gene - rcsC_1 rcsC_2 rcsC_3 rcsC_4 rcsC_5 rcsC_6 rcsC_7 rcsC_8 rcsC_9 rcsC_10 rcsC_11 rcsC_12 rcsC_13 rcsC_14 rcsC_15 rcsC_16 rcsC_17 rcsC_18 rcsC_19 rcsC_20 rcsC_21 rcsC_22 rcsC_23 rcsC_24 rcsC_25 rcsC_26 rcsC_27 rcsC_28 rcsC_29 rcsC_30 rcsC_31 rcsC_32 rcsC_33
+[12:20:47] Fixed 4 duplicate /gene - soj_1 soj_2 soj_3 soj_4
+[12:20:47] Fixed 2 duplicate /gene - mshD_1 mshD_2
+[12:20:47] Fixed 4 duplicate /gene - htpX_1 htpX_2 htpX_3 htpX_4
+[12:20:47] Fixed 2 duplicate /gene - tagO_1 tagO_2
+[12:20:47] Fixed 3 duplicate /gene - bamA_1 bamA_2 bamA_3
+[12:20:47] Fixed 2 duplicate /gene - pdxH_1 pdxH_2
+[12:20:47] Fixed 2 duplicate /gene - argC_1 argC_2
+[12:20:47] Fixed 5 duplicate /gene - cntO_1 cntO_2 cntO_3 cntO_4 cntO_5
+[12:20:47] Fixed 2 duplicate /gene - phnE_1 phnE_2
+[12:20:47] Fixed 2 duplicate /gene - prk_1 prk_2
+[12:20:47] Fixed 2 duplicate /gene - ltxD_1 ltxD_2
+[12:20:47] Fixed 2 duplicate /gene - acpP_1 acpP_2
+[12:20:47] Fixed 2 duplicate /gene - pacS_1 pacS_2
+[12:20:47] Fixed 2 duplicate /gene - apcA1_1 apcA1_2
+[12:20:47] Fixed 2 duplicate /gene - ctaD_1 ctaD_2
+[12:20:47] Fixed 2 duplicate /gene - iolS_1 iolS_2
+[12:20:47] Fixed 2 duplicate /gene - fusA_1 fusA_2
+[12:20:47] Fixed 2 duplicate /gene - argD_1 argD_2
+[12:20:47] Fixed 4 duplicate /gene - rssB_1 rssB_2 rssB_3 rssB_4
+[12:20:47] Fixed 2 duplicate /gene - hemH_1 hemH_2
+[12:20:47] Fixed 2 duplicate /gene - psaB1_1 psaB1_2
+[12:20:47] Fixed 2 duplicate /gene - lgrD_1 lgrD_2
+[12:20:47] Fixed 18 duplicate /gene - mshA_1 mshA_2 mshA_3 mshA_4 mshA_5 mshA_6 mshA_7 mshA_8 mshA_9 mshA_10 mshA_11 mshA_12 mshA_13 mshA_14 mshA_15 mshA_16 mshA_17 mshA_18
+[12:20:47] Fixed 2 duplicate /gene - mtgA_1 mtgA_2
+[12:20:47] Fixed 4 duplicate /gene - arnC_1 arnC_2 arnC_3 arnC_4
+[12:20:47] Fixed 5 duplicate /gene - phoP_1 phoP_2 phoP_3 phoP_4 phoP_5
+[12:20:47] Fixed 2 duplicate /gene - yknY_1 yknY_2
+[12:20:47] Fixed 2 duplicate /gene - frbC_1 frbC_2
+[12:20:47] Fixed 4 duplicate /gene - dapL_1 dapL_2 dapL_3 dapL_4
+[12:20:47] Fixed 236 colliding /gene names.
+[12:20:47] Adding /locus_tag identifiers
+[12:20:48] Assigned 4947 locus_tags to CDS and RNA features.
+[12:20:48] Writing outputs to annotation/prokka_output/
+[12:20:55] Generating annotation statistics file
+[12:20:55] Generating Genbank and Sequin files
+[12:20:55] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z annotation\/prokka_output\/nostoc_sp_c117\.err -i annotation\/prokka_output\/nostoc_sp_c117\.fsa 2> /dev/null
+[12:21:44] Deleting unwanted file: annotation/prokka_output/errorsummary.val
+[12:21:44] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.dr
+[12:21:44] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.fixedproducts
+[12:21:44] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.ecn
+[12:21:44] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.val
+[12:21:44] Repairing broken .GBK output that tbl2asn produces...
+[12:21:44] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < annotation\/prokka_output\/nostoc_sp_c117\.gbf > annotation\/prokka_output\/nostoc_sp_c117\.gbk
+[12:21:44] Deleting unwanted file: annotation/prokka_output/nostoc_sp_c117.gbf
+[12:21:44] Output files:
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.tsv
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.tbl
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.fna
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.faa
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.err
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.sqn
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.log
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.fsa
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.txt
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.gff
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.ffn
+[12:21:44] annotation/prokka_output/nostoc_sp_c117.gbk
+[12:21:44] Annotation finished successfully.
+[12:21:44] Walltime used: 6.48 minutes
+[12:21:44] If you use this result please cite the Prokka paper:
+[12:21:44] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[12:21:44] Type 'prokka --citation' for more details.
+[12:21:44] Share and enjoy!

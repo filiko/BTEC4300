@@ -1,0 +1,35 @@
+Command line: /root/miniconda3/envs/spades_env/bin/spades.py	-1	/root/4300Proj/SRR32280526_1_trimmed_paired.fastq.gz	-2	/root/4300Proj/SRR32280526_2_trimmed_paired.fastq.gz	--careful	--cov-cutoff	auto	-o	/root/4300Proj/assembly/spades_output	
+
+System information:
+  SPAdes version: 3.11.1
+  Python version: 3.8.20
+  OS: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.17
+
+Output dir: /root/4300Proj/assembly/spades_output
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/root/4300Proj/SRR32280526_1_trimmed_paired.fastq.gz']
+      right reads: ['/root/4300Proj/SRR32280526_2_trimmed_paired.fastq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed (with gzip)
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned ON
+  MismatchCorrector will be used
+  Coverage cutoff is turned ON and threshold will be auto-detected
+Other parameters:
+  Dir for temp files: /root/4300Proj/assembly/spades_output/tmp
+  Threads: 16
+  Memory limit (in Gb): 6
+

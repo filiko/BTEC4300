@@ -1,0 +1,100 @@
+/root/miniconda3/envs/quast_env/lib/python3.6/site-packages/quast-5.0.2-py3.6.egg-info/scripts/quast.py assembly/spades_output/scaffolds.fasta megahit_out/final.contigs.fa -r reference/nostoc_sp_c117_reference.fasta -o fastqc_results/quast_output
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-debian-bookworm-sid (linux_64)
+  Python version: 3.6.13
+  CPUs number: 8
+
+Started: 2025-04-16 05:03:23
+
+Logging to /root/4300Proj/fastqc_results/quast_output/quast.log
+NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
+
+CWD: /root/4300Proj
+Main parameters: 
+  MODE: default, threads: 2, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /root/4300Proj/reference/nostoc_sp_c117_reference.fasta ==> nostoc_sp_c117_reference
+
+Contigs:
+  Pre-processing...
+  1  assembly/spades_output/scaffolds.fasta ==> scaffolds
+  2  megahit_out/final.contigs.fa ==> final.contigs
+
+2025-04-16 05:03:23
+Running Basic statistics processor...
+  Reference genome:
+    nostoc_sp_c117_reference.fasta, length = 175592, num fragments = 1, GC % = 65.98
+  Contig files: 
+    1  scaffolds
+    2  final.contigs
+  Calculating N50 and L50...
+    1  scaffolds, N50 = 3149, L50 = 468, Total length = 5284622, GC % = 42.27, # N's per 100 kbp =  11.83
+    2  final.contigs, N50 = 2954, L50 = 479, Total length = 5061808, GC % = 42.39, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /root/4300Proj/fastqc_results/quast_output/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /root/4300Proj/fastqc_results/quast_output/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /root/4300Proj/fastqc_results/quast_output/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /root/4300Proj/fastqc_results/quast_output/basic_stats/GC_content_plot.pdf
+  Drawing scaffolds GC content plot...
+    saved to /root/4300Proj/fastqc_results/quast_output/basic_stats/scaffolds_GC_content_plot.pdf
+  Drawing final.contigs GC content plot...
+    saved to /root/4300Proj/fastqc_results/quast_output/basic_stats/final.contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 6x)...
+    saved to /root/4300Proj/fastqc_results/quast_output/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 6x)...
+    saved to /root/4300Proj/fastqc_results/quast_output/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+2025-04-16 05:03:26
+Running Contig analyzer...
+  1  scaffolds
+  2  final.contigs
+  1  Logging to files /root/4300Proj/fastqc_results/quast_output/contigs_reports/contigs_report_scaffolds.stdout and contigs_report_scaffolds.stderr...
+  2  Logging to files /root/4300Proj/fastqc_results/quast_output/contigs_reports/contigs_report_final-contigs.stdout and contigs_report_final-contigs.stderr...
+  2  Aligning contigs to the reference
+  1  Aligning contigs to the reference
+  2  /root/miniconda3/envs/quast_env/lib/python3.6/site-packages/quast_libs/minimap2/minimap2 \
+     -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 fastqc_results/quast_output/quast_corrected_input/nostoc_sp_c117_reference.fasta \
+     fastqc_results/quast_output/quast_corrected_input/final_contigs.fa > fastqc_results/quast_output/contigs_reports/minimap_output/final-contigs.coords_tmp \
+     2>> fastqc_results/quast_output/contigs_reports/contigs_report_final-contigs.stderr
+  1  /root/miniconda3/envs/quast_env/lib/python3.6/site-packages/quast_libs/minimap2/minimap2 \
+     -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 fastqc_results/quast_output/quast_corrected_input/nostoc_sp_c117_reference.fasta \
+     fastqc_results/quast_output/quast_corrected_input/scaffolds.fasta > fastqc_results/quast_output/contigs_reports/minimap_output/scaffolds.coords_tmp \
+     2>> fastqc_results/quast_output/contigs_reports/contigs_report_scaffolds.stderr
+  2  Nothing aligned for 'final.contigs'.
+  1  Nothing aligned for 'scaffolds'.
+Failed aligning the contigs for all the assemblies. Only basic stats are going to be evaluated.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2025-04-16 05:03:27
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2025-04-16 05:03:30
+RESULTS:
+  Text versions of total report are saved to /root/4300Proj/fastqc_results/quast_output/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /root/4300Proj/fastqc_results/quast_output/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /root/4300Proj/fastqc_results/quast_output/report.html
+  PDF version (tables and plots) is saved to /root/4300Proj/fastqc_results/quast_output/report.pdf
+  Icarus (contig browser) is saved to /root/4300Proj/fastqc_results/quast_output/icarus.html
+  Log is saved to /root/4300Proj/fastqc_results/quast_output/quast.log
+
+Finished: 2025-04-16 05:03:30
+Elapsed time: 0:00:07.151628
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

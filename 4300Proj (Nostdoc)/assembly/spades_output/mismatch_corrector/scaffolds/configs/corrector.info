@@ -1,0 +1,7 @@
+"bwa": "/root/miniconda3/envs/spades_env/share/spades-3.11.1-4/bin/bwa-spades"
+"dataset": "/root/4300Proj/assembly/spades_output/input_dataset.yaml"
+"log_filename": "log.properties"
+"max_nthreads": !!int "16"
+"output_dir": "/root/4300Proj/assembly/spades_output/mismatch_corrector/scaffolds"
+"strategy": "mapped_squared"
+"work_dir": "/root/4300Proj/assembly/spades_output/tmp/corrector_egbyig_a"

@@ -1,0 +1,10 @@
+
+=== Error correction and assembling warnings:
+ * 0:07:48.994   252M / 4G    WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 19
+ * 0:07:49.002   252M / 4G    WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 19
+ * 0:05:49.143   260M / 4G    WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 16
+ * 0:05:49.147   260M / 4G    WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 16
+ * 0:03:09.165   408M / 4G    WARN    General                 (kmer_coverage_model.cpp   : 218)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:04:30.633   416M / 4G    WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 10
+ * 0:04:30.638   416M / 4G    WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 10
+======= Warnings saved to /root/4300Proj/assembly/spades_output/warnings.log

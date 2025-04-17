@@ -1,0 +1,8 @@
+organism: Nostoc sp. c117 C117 
+contigs: 4405
+bases: 5875937
+CDS: 4882
+gene: 4947
+rRNA: 8
+repeat_region: 4
+tRNA: 57

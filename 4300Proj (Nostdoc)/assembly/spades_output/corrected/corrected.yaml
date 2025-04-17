@@ -1,0 +1,8 @@
+- "left reads":
+  - "/root/4300Proj/assembly/spades_output/corrected/SRR32280526_1_trimmed_paired.fastq.00.0_0.cor.fastq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/root/4300Proj/assembly/spades_output/corrected/SRR32280526_2_trimmed_paired.fastq.00.0_0.cor.fastq.gz"
+  "single reads":
+  - "/root/4300Proj/assembly/spades_output/corrected/SRR32280526__unpaired.00.0_0.cor.fastq.gz"
+  "type": "paired-end"
