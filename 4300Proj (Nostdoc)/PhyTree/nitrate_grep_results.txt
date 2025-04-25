@@ -1,0 +1,5 @@
+>HPFNLEKH_00433 Nitrate/nitrite binding protein NrtA
+>HPFNLEKH_00434 Nitrate import permease protein NrtB
+>HPFNLEKH_00437 Nitrate reductase
+>HPFNLEKH_01830 Nitrate/nitrite binding protein NrtA
+>HPFNLEKH_01998 Nitrate import permease protein NrtB
